@@ -3,6 +3,6 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I am a doctoral student at [ETH Zurich](https://www.ethz.ch/). In my research, I use probabilistic modelling and data analytics to advance risk assessment for spatially distributed systems exposed to natural hazards such as earthquakes. This website provides a brief overview on some selected research projects. 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Before I started my doctoral studies, I worked at the Swiss Federal Railway as an infrastructure asset manager for engineering structures. I was involved in medium- and long-term financial planning of maintenance actions for the portfolio of railway bridges, provided in-house technical consultancy services for projects related to new and existing bridges. 
