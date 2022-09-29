@@ -10,8 +10,8 @@ classes: wide
 feature_row1:
   - image_path: assets/images/research/Pollino_ShakeMapFrag.png
     alt: "RMGP"
-    title: "RMGP: Dynamic updating of post-earthquake loss estimates"
-    excerpt: 'Incorporate domain knowledge in Gaussian process regression. `type="left"`'
+    title: "Dynamic updating of post-earthquake loss estimates"
+    excerpt: "Probabilistic machine learning tools to update risk models"
     url: "/research/rmgp/"
     btn_label: "Read More"
     btn_class: "btn--primary"
