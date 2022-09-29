@@ -14,7 +14,7 @@ This website is under development.
 ## News
 
 | Mar 01, 2022  | Start as a visiting student researcher at [Stanford University](https://www.stanford.edu/).  |
-| Sep 12, 2021  | Presentation at the European Conference for Safety and Reliability (ESREL) in Angers, France.  |
+| Sep 12, 2021  | Presentation at the European Conference for Safety and Reliability (ESREL) in Angers, France. See [here](https://doi.org/10.3850/978-981-18-2016-8_559-cd) for the abstract and paper.  |
 | Mar 15, 2021  | Presentation at the first Croatian Conference on Earthquake Engineering (online).  |
 | Nov 21, 2020  | Presentation at the Swiss Geoscience Meeting (online).  |
 | Jun 11, 2020  | Our paper "The role of risk measures in making seismic upgrading decisions" has been published by Earthquake Spectra. |
