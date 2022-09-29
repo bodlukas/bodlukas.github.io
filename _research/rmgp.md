@@ -11,7 +11,7 @@ date: 2022-09-18
 | [Preprint](https://doi.org/10.31224/2205) | [Code](https://github.com/bodlukas/earthquake-rmgp) |
 
 
-> AHA
+> Bodenmann L., Reuland Y. and Stojadinovic B. (2022): Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes; Submitted to Reliability Engineering & System Safety.
 
 
 RMGP - Risk model informed Gaussian Process
