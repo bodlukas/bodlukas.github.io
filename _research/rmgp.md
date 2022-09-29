@@ -8,7 +8,11 @@ date: 2022-09-18
 ---
 
 
-| Publication | [Code](https://gitlab.ethz.ch/bodlukas/earthquake-rmgp) | [Preprint](https://doi.org/10.31224/2205) |
+| [Preprint](https://doi.org/10.31224/2205) | [Code](https://github.com/bodlukas/earthquake-rmgp) |
+
+
+> AHA
+
 
 RMGP - Risk model informed Gaussian Process
 
