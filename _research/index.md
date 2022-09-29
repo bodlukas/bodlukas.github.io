@@ -11,17 +11,17 @@ feature_row1:
   - image_path: assets/images/research/Pollino_ShakeMapFrag.png
     alt: "RMGP"
     title: "Dynamic updating of post-earthquake loss estimates"
-    excerpt: "Probabilistic machine learning tools to update risk models"
+    excerpt: "Leverage probabilistic machine learning tools to update risk models with early damage reports"
     url: "/research/rmgp/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
 feature_row2:
   - image_path: /assets/images/thumbnail.png
-    alt: "exposure"
-    title: "Incorporating uncertainties in building inventory information"
-    excerpt: "For regional earthquake risk assessments."
-    url: "/portfolio/inventory/"
+    alt: "riskmeasure"
+    title: "From building-specific to regional seismic risk and back"
+    excerpt: "Use subadditive risk measures to establish an upper-bound relation between building-specific and regional seismic risk"
+    url: "/research/riskmeasure/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
