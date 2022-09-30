@@ -45,7 +45,7 @@ Here you'll find summaries of the major research projects I've done over the yea
 | --------- |
 | **Published** |
 | --------- |
-| The role of risk measures in making seismic upgrading decisions. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> *Earthquake Spectra* 2020 <br /> [html](https://doi.org/10.31224/2205){: .btn .btn--primary .btn--small} [pdf (accepted version)](https://engrxiv.org/preprint/view/2205/4410){: .btn .btn--primary .btn--small} <a class="btn btn-ghost-primary btn-sm" href="https://doi.org/10.31224/2205"> <i class="fa fa-code"></i> code</a> | 
+| The role of risk measures in making seismic upgrading decisions. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> *Earthquake Spectra* 2020 <br /> [html](https://doi.org/10.31224/2205){: .btn .btn--primary .btn--small} <a class="btn btn-primary btn-sm" href="[https://doi.org/10.31224/2205](https://engrxiv.org/preprint/view/2205/4410)"> <i class="fa fa-file-pdf"></i> pdf (accepted version)</a> <a class="btn btn-primary btn-sm" href="https://doi.org/10.31224/2205"> <i class="fa fa-code"></i> code</a> | 
 
 <table>
     <thead>
