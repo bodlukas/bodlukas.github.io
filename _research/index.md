@@ -22,7 +22,7 @@ feature_row2:
     title: "From building-specific to regional seismic risk and back"
     excerpt: "Use subadditive risk measures to establish an upper-bound relation between building-specific and regional seismic risk"
     url: "/research/riskmeasure/"
-    btn_label: "Read More"
+    btn_label: "Read More <i class="fa fa-link"></i>"
     btn_class: "btn--primary"
 ---
 
