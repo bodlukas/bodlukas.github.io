@@ -36,7 +36,7 @@ Here you'll find summaries of the major research projects I've done over the yea
 
 ## Publications in peer-reviewed journals
 
-| | 
+| <!-- -->    | <!-- -->    |
 | --------- |
 | **In review** |
 | --------- |
