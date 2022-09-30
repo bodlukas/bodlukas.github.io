@@ -1,11 +1,14 @@
 ---
 title: "Research"
 permalink: /research/
-author_profile: true
+author_profile: false
 comments: false
 layout: single
 date: 2022-09-18
 classes: wide
+sidebar:
+  nav: "foo"
+
 
 feature_row1:
   - image_path: assets/images/research/Pollino_ShakeMapFrag.png
@@ -36,7 +39,7 @@ Here you'll find summaries of the major research projects I've done over the yea
 
 {% include feature_row id="feature_row2" type="left" %}
 
-## Publications in peer-reviewed journals
+## Journal Publications
 
 <table>
     <thead>
