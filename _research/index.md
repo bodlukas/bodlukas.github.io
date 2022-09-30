@@ -27,6 +27,15 @@ feature_row2:
     url: "/research/riskmeasure/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+    
+feature_row3:
+  - image_path: /assets/images/research/riskmeasure2.png
+    alt: "riskmeasure"
+    title: "From building-specific to regional seismic risk and back"
+    excerpt: "Use subadditive risk measures to establish an upper-bound relation between building-specific and regional seismic risk"
+    url: "/research/riskmeasure/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 Here you'll find summaries of the major research projects I've done over the years.
@@ -37,7 +46,9 @@ Here you'll find summaries of the major research projects I've done over the yea
 
 {% include feature_row id="feature_row1" type="left" %}
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" type="right" %}
+
+{% include feature_row id="feature_row3" type="left" %}
 
 ## Journal Publications
 
