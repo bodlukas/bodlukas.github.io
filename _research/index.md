@@ -41,7 +41,7 @@ Here you'll find summaries of the major research projects I've done over the yea
 | **In review** |
 | --------- |
 | The role of risk measures in relating earthquake risk at building and portfolio level. <br /> Bodenmann, L., Broccardo, M., Galanis, P., and Stojadinović, B. <br /> *Submitted to Earthquake Engineering & Structural Dynamics* 2022 <br /> [html](https://doi.org/10.31224/2205){: .btn .btn--primary .btn--small} [pdf (preprint)](https://engrxiv.org/preprint/view/2205/4410){: .btn .btn--primary .btn--small} |
-| Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> *Submitted to Reliability Engineering & System Safety* 2022 <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-arrow-up-right-from-square fa-lg"></i> doi</a> <a class="btn btn--primary" href="https://engrxiv.org/preprint/view/2205/4410"> <i class="fa fa-file-pdf fa-lg"></i> preprint</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a> |
+| Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> *Submitted to Reliability Engineering & System Safety* 2022 <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-link"></i> doi</a> <a class="btn btn--primary" href="https://engrxiv.org/preprint/view/2205/4410"> <i class="fa fa-file-pdf fa-lg"></i> preprint</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a> |
 | --------- |
 | **Published** |
 | --------- |
