@@ -19,8 +19,6 @@ foo:
     url: /research/#journal-publications
 
 foo2:
-  - title: "About"
-    url: /about/
   - title: "Research"
     url: /research/
     children:
@@ -28,6 +26,3 @@ foo2:
         url: /research/#selected-projects
       - title: "Journal Publications"
         url: /research/#journal-publications
-        children:
-          - title: "From building-specific to regional seismic risk and back"
-            url: /research/riskmeasure
