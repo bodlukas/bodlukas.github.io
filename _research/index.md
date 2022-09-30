@@ -42,15 +42,16 @@ Bodenmann, L., Broccardo, M., Galanis, P., and Stojadinović, B.
 
 | html | pdf (preprint) | 
 
-Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes. 
-Bodenmann, L., Reuland, Y., and Stojadinović, B. 
-*Submitted to Reliability Engineering & System Safety 2022*
+
+Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes. //
+Bodenmann, L., Reuland, Y., and Stojadinović, B. //
+*Submitted to Reliability Engineering & System Safety 2022* //
 
 | [html](https://doi.org/10.31224/2205){: .btn .btn--primary} | [pdf (preprint)](https://engrxiv.org/preprint/view/2205/4410){: .btn .btn--primary} | [code](https://github.com/bodlukas/earthquake-rmgp){: .btn .btn--primary} |
 
-The role of risk measures in making seismic upgrading decisions. 
-Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. 
-*Earthquake Spectra 2020*
 
-| html | pdf (accepted version) | 
+The role of risk measures in making seismic upgrading decisions. //
+Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. //
+*Earthquake Spectra 2020* //
+[html](https://doi.org/10.31224/2205){: .btn .btn--primary} [pdf (accepted version)](https://engrxiv.org/preprint/view/2205/4410){: .btn .btn--primary} 
 
