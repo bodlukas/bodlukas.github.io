@@ -33,7 +33,7 @@ Here you'll find summaries of the major research projects I've done over the yea
 
 ## Selected Projects
 
-<i class="fa fa-link"></i>
+<i class="fa fa-angles-right"></i>
 
 {% include feature_row id="feature_row1" type="left" %}
 
