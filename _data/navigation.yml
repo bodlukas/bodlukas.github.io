@@ -3,3 +3,15 @@ main:
     url: /about/
   - title: "Research"
     url: /research/
+
+foo:
+  - title: "Selected Projects"
+    url: /research/#selected-projects
+    children:
+      - title: "Dynamic Updating of post-earthquake loss estimates"
+        url: /research/rmgp
+      - title: "Child Link 2"
+        url: /research/
+
+  - title: "Journal Publications"
+    url: /research/#journal publications
