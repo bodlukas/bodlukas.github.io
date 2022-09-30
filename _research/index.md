@@ -1,13 +1,13 @@
 ---
 title: "Research"
 permalink: /research/
-author_profile: false
+author_profile: true
 comments: false
 layout: single
 date: 2022-09-18
 classes: wide
 sidebar:
-  nav: "foo"
+  nav: "foo2"
 
 
 feature_row1:
