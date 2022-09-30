@@ -33,3 +33,30 @@ Here you'll find summaries of the major research projects I've done over the yea
 {% include feature_row id="feature_row1" type="left" %}
 
 {% include feature_row id="feature_row2" type="left" %}
+
+## Publications
+
+Accounting for site and path effects in spatial ground-motion correlation models using Bayesian inference. 
+Bodenmann, L., Baker, J.W., and Stojadinović, B. 
+*Submitted to Natural Hazards and Earth System Sciences 2022*
+
+| html | pdf (preprint) | code | 
+
+The role of risk measures in making seismic upgrading decisions. 
+Bodenmann, L., Broccardo, M., Galanis, P., and Stojadinović, B. 
+*Submitted to Earthquake Engineering & Structural Dynamics 2022*
+
+| html | pdf (preprint) | 
+
+Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes. 
+Bodenmann, L., Reuland, Y., and Stojadinović, B. 
+*Submitted to Reliability Engineering & System Safety 2022*
+
+| html | pdf (preprint) | code |
+
+The role of risk measures in making seismic upgrading decisions. 
+Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. 
+*Earthquake Spectra 2020*
+
+| html | pdf (accepted version) | 
+
