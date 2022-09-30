@@ -17,7 +17,7 @@ feature_row1:
     btn_class: "btn--primary"
 
 feature_row2:
-  - image_path: /assets/images/thumbnail.png
+  - image_path: /assets/images/research/riskmeasure2.png
     alt: "riskmeasure"
     title: "From building-specific to regional seismic risk and back"
     excerpt: "Use subadditive risk measures to establish an upper-bound relation between building-specific and regional seismic risk"
