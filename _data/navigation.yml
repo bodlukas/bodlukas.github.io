@@ -10,8 +10,10 @@ foo:
     children:
       - title: "Dynamic Updating of post-earthquake loss estimates"
         url: /research/rmgp
-      - title: "Child Link 2"
-        url: /research/
+      - title: "From building-specific to regional seismic risk and back"
+        url: /research/riskmeasure
+      - title: "From building-specific to regional seismic risk and back"
+        url: /research/riskmeasure
 
   - title: "Journal Publications"
-    url: /research/#journal publications
+    url: /research/#journal-publications
