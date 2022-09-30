@@ -36,7 +36,8 @@ Here you'll find summaries of the major research projects I've done over the yea
 
 ## Publications in peer-reviewed journals
 
-| |
+| | 
+| --------- |
 | **In review** |
 | --------- |
 | The role of risk measures in relating earthquake risk at building and portfolio level. <br /> Bodenmann, L., Broccardo, M., Galanis, P., and Stojadinović, B. <br /> *Submitted to Earthquake Engineering & Structural Dynamics* 2022 <br /> [html](https://doi.org/10.31224/2205){: .btn .btn--primary .btn--small} [pdf (preprint)](https://engrxiv.org/preprint/view/2205/4410){: .btn .btn--primary .btn--small} |
