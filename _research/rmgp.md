@@ -15,7 +15,7 @@ We propose to use Gaussian Process inference models to fuse the available inspec
 
 The performance of the proposed Gaussian Process methodology is demonstrated on one fictitious earthquake scenario and two real earthquake damage datasets. A comparison with purely data-driven methods shows that the proposed method reduces the number of building inspections required to provide reliable and precise damage predictions.
 
-Bodenmann L., Reuland Y. and Stojadinovic B. (2022): Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes; Submitted to Reliability Engineering & System Safety.
+Bodenmann L., Reuland Y. and Stojadinovic B. (2022): Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes; Submitted to Reliability Engineering & System Safety. <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-link"></i> doi</a> <a class="btn btn--primary" href="https://engrxiv.org/preprint/view/2205/4410"> <i class="fa fa-file-pdf fa-lg"></i> preprint</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--info}
 
 {% include figure image_path="/assets/images/research/Fig1_Overview.png" alt="schema" caption="Schematic overview" %}
