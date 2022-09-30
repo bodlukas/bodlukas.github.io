@@ -45,12 +45,10 @@ Here you'll find summaries of the major research projects I've done over the yea
 Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes. 
 Bodenmann, L., Reuland, Y., and Stojadinović, B. 
 *Submitted to Reliability Engineering & System Safety 2022*
-
 | html | pdf (preprint) | code |
 
 The role of risk measures in making seismic upgrading decisions. 
 Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. 
 *Earthquake Spectra 2020*
-
 | html | pdf (accepted version) | 
 
