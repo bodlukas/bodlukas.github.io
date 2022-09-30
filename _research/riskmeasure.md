@@ -6,7 +6,7 @@ comments: false
 layout: single
 date: 2022-09-18
 sidebar:
-  nav: "foo"
+  nav: "foo2"
 ---
 
 
