@@ -41,11 +41,11 @@ Here you'll find summaries of the major research projects I've done over the yea
 | **In review** |
 | --------- |
 | The role of risk measures in relating earthquake risk at building and portfolio level. <br /> Bodenmann, L., Broccardo, M., Galanis, P., and Stojadinović, B. <br /> *Submitted to Earthquake Engineering & Structural Dynamics* 2022 <br /> [html](https://doi.org/10.31224/2205){: .btn .btn--primary .btn--small} [pdf (preprint)](https://engrxiv.org/preprint/view/2205/4410){: .btn .btn--primary .btn--small} |
-| Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> *Submitted to Reliability Engineering & System Safety* 2022 <br /> [html](https://doi.org/10.31224/2205){: .btn .btn--primary .btn--small} [<i class="fab fa-fw fa-file-pdf-o"></i> pdf (preprint)](https://engrxiv.org/preprint/view/2205/4410){: .btn .btn--small} [<i class="fab fa-fw fa-code"></i>code](https://github.com/bodlukas/earthquake-rmgp){: .btn .btn--primary .btn--small} |
+| Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> *Submitted to Reliability Engineering & System Safety* 2022 <br /> [html](https://doi.org/10.31224/2205){: .btn .btn--primary .btn--small} [<i class="fab fa-fw fa-file-pdf-o"></i> pdf (preprint)](https://engrxiv.org/preprint/view/2205/4410){: .btn .btn--small} <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a> |
 | --------- |
 | **Published** |
 | --------- |
-| The role of risk measures in making seismic upgrading decisions. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> *Earthquake Spectra* 2020 <br /> [doi](https://doi.org/10.31224/2205){: .btn .btn--primary .btn--small} <a class="btn btn-primary btn-sm" href="[https://doi.org/10.31224/2205](https://engrxiv.org/preprint/view/2205/4410)"> <i class="fa fa-file-pdf"></i> pdf (accepted version)</a> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-code" aria-hidden="true"></i> code</a> | 
+| The role of risk measures in making seismic upgrading decisions. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> *Earthquake Spectra* 2020 <br /> [doi](https://doi.org/10.31224/2205){: .btn .btn--primary .btn--small} <a class="btn btn--primary" href="[https://doi.org/10.31224/2205](https://engrxiv.org/preprint/view/2205/4410)"> <i class="fa fa-file-pdf"></i> accepted version</a> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-code" aria-hidden="true"></i> code</a> | 
 
 <table>
     <thead>
