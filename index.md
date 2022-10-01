@@ -5,9 +5,11 @@ author_profile: true
 permalink: /
 ---
 
-I am a doctoral student at [ETH Zurich](https://www.ethz.ch/). In my research, I use probabilistic modelling and data analytics to advance risk assessment for spatially distributed systems exposed to natural hazards such as earthquakes. This website provides a brief overview on some selected research projects. 
+I am a doctoral student at [ETH Zurich](https://www.ethz.ch/). In my research, I use **probabilistic modelling** and **data analytics** to advance risk assessment for spatially distributed **infrastructure** exposed to **natural hazards**. 
 
-This website is under development.
+Before that, I worked as an infrastructure asset manager for the Swiss Federal Railway ([SBB](https://www.sbb.ch/)).  
+
+This website provides a brief overview on my research. It is in active development.
 
 ## News
 
