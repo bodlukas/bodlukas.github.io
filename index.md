@@ -1,6 +1,6 @@
 ---
 title: "About me"
-layout: single
+layout: page
 author_profile: true
 permalink: /
 ---
