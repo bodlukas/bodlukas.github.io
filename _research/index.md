@@ -90,7 +90,7 @@ Here you'll find summaries of the major research projects I've done over the yea
             <td>Comparison of different risk measures for portfolio-level earthquake risk assessment. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> <em>17th World Conference on Earthquake Engineering (17WCEE), Sendai, Japan.</em> 2020 <br /> <a class="btn btn--primary" href=" https://doi.org/10.5592/CO/1CroCEE.2021.71"> <i class="fa fa-file-pdf"></i> Abstract & Paper</a> </td>
         </tr>
         <tr>
-            <td>The financial benefit of earthquake retrofitting in different hazard environments. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> <em>11th U.S. National Conference on Earthquake Engineering (11NCEE), Los Angeles, California.</em> 2018 <br /> <a class="btn btn--primary" href=" https://doi.org/10.5592/CO/1CroCEE.2021.71"> <i class="fa fa-file-pdf"></i> Abstract & Paper</a> </td>
+            <td>The financial benefit of earthquake retrofitting in different hazard environments. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> <em>11th U.S. National Conference on Earthquake Engineering (11NCEE), Los Angeles, California.</em> 2018 <br /> <a class="btn btn--primary" href="https://11ncee.org/"> <i class="fa fa-link"></i> Conference</a> <a class="btn btn--primary" href="https://doi.org/10.3929/ethz-b-000507866"> <i class="fa fa-file-pdf"></i> Paper</a></td>
         </tr>
     </tbody>
 </table>
