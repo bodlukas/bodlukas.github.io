@@ -9,9 +9,15 @@ sidebar:
 
 I am a doctoral student at [ETH Zurich](https://www.ethz.ch/). In my research, I use **probabilistic modelling** and **data analytics** to advance risk assessment for spatially distributed **infrastructure** exposed to **natural hazards**. 
 
-Before that, I worked as an infrastructure asset manager for the Swiss Federal Railway ([SBB](https://www.sbb.ch/)).  
+Before that, I worked as an infrastructure asset manager for the Swiss Federal Railway ([SBB](https://company.sbb.ch/en/home.html)).  
 
-This website provides a brief overview on my research. It is in active development.
+| ------ | ------ |
+| Interests | |
+| Data science | Bayesian stats |
+| Deep learning | Infrastructure | 
+| ... | ... |
+
+Feel free to check out the summaries of some selected research projects. 
 
 ## News
 
