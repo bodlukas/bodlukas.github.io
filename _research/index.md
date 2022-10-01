@@ -81,7 +81,7 @@ Here you'll find summaries of the major research projects I've done over the yea
 <table>
     <tbody>
         <tr>
-            <td>Dynamic updating of building loss predictions using regional risk models and conventional post-earthquake data sources. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>31st European Safety and Reliability Conference (31ESREL), Angers, France.</em> 2021 <br /> <a class="btn btn--primary" href="https://rpsonline.com.sg/proceedings/9789811820168/html/559.xml"> <i class="fa fa-file-pdf"></i> Abstract & Paper</a> </td>
+            <td>Dynamic updating of building loss predictions using regional risk models and conventional post-earthquake data sources. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>31st European Safety and Reliability Conference (31ESREL), Angers, France.</em> 2021 <br /> <a class="btn btn--primary" href="https://doi.org/10.3850/978-981-18-2016-8_559-cd"> <i class="fa fa-square-arrow-right"></i> DOI</a> <a class="btn btn--primary" href="https://doi.org/10.3929/ethz-b-000507866"> <i class="fa fa-file-pdf"></i> Abstract & Paper</a> </td>
         </tr>
         <tr>
             <td>Using regional earthquake risk models as priors to dynamically assess the impact on residential buildings after an event. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>1st Croatian Conference on Earthquake Engineering (1CroCEE), Zagreb, Croatia.</em> 2021 <br /> <a class="btn btn--primary" href=" https://doi.org/10.5592/CO/1CroCEE.2021.71"> <i class="fa fa-file-pdf"></i> Abstract & Paper</a> </td>
