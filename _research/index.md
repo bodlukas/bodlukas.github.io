@@ -75,3 +75,22 @@ Here you'll find summaries of the major research projects I've done over the yea
         </tr>
     </tbody>
 </table>
+
+## Conference Proceedings
+
+<table>
+    <tbody>
+        <tr>
+            <td>Dynamic updating of building loss predictions using regional risk models and conventional post-earthquake data sources. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>31st European Safety and Reliability Conference (31ESREL), Angers, France.</em> 2021 <br /> <a class="btn btn--primary" href="https://rpsonline.com.sg/proceedings/9789811820168/html/559.xml"> <i class="fa fa-file-pdf"></i> Abstract & Paper</a> </td>
+        </tr>
+        <tr>
+            <td>Using regional earthquake risk models as priors to dynamically assess the impact on residential buildings after an event. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>1st Croatian Conference on Earthquake Engineering (1CroCEE), Zagreb, Croatia.</em> 2021 <br /> <a class="btn btn--primary" href=" https://doi.org/10.5592/CO/1CroCEE.2021.71"> <i class="fa fa-file-pdf"></i> Abstract & Paper</a> </td>
+        </tr>
+        <tr>
+            <td>Comparison of different risk measures for portfolio-level earthquake risk assessment. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> <em>17th World Conference on Earthquake Engineering (17WCEE), Sendai, Japan.</em> 2020 <br /> <a class="btn btn--primary" href=" https://doi.org/10.5592/CO/1CroCEE.2021.71"> <i class="fa fa-file-pdf"></i> Abstract & Paper</a> </td>
+        </tr>
+        <tr>
+            <td>The financial benefit of earthquake retrofitting in different hazard environments. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> <em>11th U.S. National Conference on Earthquake Engineering (11NCEE), Los Angeles, California.</em> 2018 <br /> <a class="btn btn--primary" href=" https://doi.org/10.5592/CO/1CroCEE.2021.71"> <i class="fa fa-file-pdf"></i> Abstract & Paper</a> </td>
+        </tr>
+    </tbody>
+</table>
