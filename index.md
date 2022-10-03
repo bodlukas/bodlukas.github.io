@@ -13,8 +13,9 @@ Before that, I worked as an infrastructure asset manager for the Swiss Federal R
 
 Feel free to check out the summaries of some selected research projects. 
 
-## News
-
+|--------------|---------|
+| News | |
+|--------------|---------|
 | Mar 01, 2022  | Start as a visiting student researcher at [Stanford University](https://www.stanford.edu/).  |
 | Sep 12, 2021  | Presentation at the 31st European Conference for Safety and Reliability (ESREL) in Angers, France. See [here](https://doi.org/10.3850/978-981-18-2016-8_559-cd) for the presented work.  |
 | Mar 15, 2021  | Presentation at the 1st Croatian Conference on Earthquake Engineering (online). See [here](https://www.research-collection.ethz.ch/handle/20.500.11850/502087) for the presented work. |
