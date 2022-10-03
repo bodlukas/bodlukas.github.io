@@ -9,6 +9,11 @@ classes: wide
 sidebar:
   nav: "foo2"
 
+carousels:
+  - images: 
+    - image: /assets/images/research/Pollino_ShakeMapFrag.png
+    - image: /assets/images/research/riskmeasure2.png
+    - image: /assets/images/research/Pollino_ShakeMapFrag.png
 
 feature_row1:
   - image_path: assets/images/research/Pollino_ShakeMapFrag.png
@@ -41,6 +46,9 @@ feature_row3:
 Here you'll find summaries of the major research projects I've done over the years.
 
 ## Selected Projects
+
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+
 
 {% include feature_row id="feature_row1" type="left" %}
 
