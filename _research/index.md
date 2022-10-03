@@ -47,7 +47,7 @@ Here you'll find summaries of the major research projects I've done over the yea
 
 ## Selected Projects
 
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+{% include carousel.html height="70" unit="%" duration="7" number="1" %}
 
 
 {% include feature_row id="feature_row1" type="left" %}
