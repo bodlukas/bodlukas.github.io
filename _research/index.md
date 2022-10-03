@@ -59,8 +59,7 @@ Here you'll find summaries of the major research projects I've done over the yea
 
 ## Journal Publications
 
-<table>
-  width: 100%;
+<table width="100%">
     <thead>
         <tr>
             <th>In review</th>
