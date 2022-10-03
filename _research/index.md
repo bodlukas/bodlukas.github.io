@@ -4,6 +4,7 @@ permalink: /research/
 author_profile: true
 comments: false
 layout: single
+classes: wide
 date: 2022-09-18
 sidebar:
   nav: "foo2"
@@ -59,6 +60,7 @@ Here you'll find summaries of the major research projects I've done over the yea
 ## Journal Publications
 
 <table>
+  width: 100%;
     <thead>
         <tr>
             <th>In review</th>
