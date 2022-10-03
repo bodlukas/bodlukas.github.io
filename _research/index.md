@@ -22,7 +22,8 @@ feature_row1:
     excerpt: "Leverage probabilistic machine learning tools to update risk models with early damage reports"
     url: "/research/rmgp/"
     btn_label: "Learn more"
-    btn_class: "btn--primary btn--small"
+    btn_class: "btn--primary"
+    btn_size: "btn--small"
 
 feature_row2:
   - image_path: /assets/images/research/riskmeasure2.png
@@ -30,8 +31,9 @@ feature_row2:
     title: "Composition of a building inventory data set"
     excerpt: "Use existing GIS data and a small labelled data set to compose a building inventory for risk assessment"
     url: "/research/riskmeasure/"
-    btn_label: "Read More"
-    btn_class: "btn--primary btn--small"
+    btn_label: "Learn more"
+    btn_class: "btn--primary"
+    btn_size: "btn--small"
     
 feature_row3:
   - image_path: /assets/images/research/riskmeasure2.png
@@ -41,6 +43,7 @@ feature_row3:
     url: "/research/riskmeasure/"
     btn_label: "Read More"
     btn_class: "btn--primary btn-sm"
+    btn_size: "btn--small"
 ---
 
 Here you'll find summaries of the major research projects I've done over the years.
@@ -59,9 +62,9 @@ Here you'll find summaries of the major research projects I've done over the yea
 
 ## Journal Publications
 
-<table width="100%" border="1">
+<table>
     <thead>
-        <tr>
+        <tr width="100%" border="1">
             <th>In review</th>
         </tr>
     </thead>
