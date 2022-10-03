@@ -22,8 +22,8 @@ feature_row1:
 feature_row2:
   - image_path: /assets/images/research/riskmeasure2.png
     alt: "riskmeasure"
-    title: "From building-specific to regional seismic risk and back"
-    excerpt: "Use subadditive risk measures to establish an upper-bound relation between building-specific and regional seismic risk"
+    title: "Composition of a building inventory data set"
+    excerpt: "Use existing GIS data and a small labelled data set to compose a building inventory for risk assessment"
     url: "/research/riskmeasure/"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -79,6 +79,19 @@ Here you'll find summaries of the major research projects I've done over the yea
 ## Conference Proceedings
 
 <table>
+    <thead>
+        <tr>
+            <th>2022</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Validating a resilience quantification framework: The Case of 2010 Kraljevo Earthquake. <br /> Blagojević, N., Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>3rd European Conference on Earthquake Engineering and Seismology (3ECEE), Bucharest, Romania.</em> 2022 <br /> <a class="btn btn--primary" href="https://3ecees.ro/"> <i class="fa fa-link"></i> Conference</a>  </td>
+        </tr>
+        <tr>
+            <td>Improving community disaster resilience by providing adequate supply of recovery resources and services. <br /> Blagojević, N., Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>3rd European Conference on Earthquake Engineering and Seismology (3ECEE), Bucharest, Romania.</em> 2022 <br /> <a class="btn btn--primary" href="https://3ecees.ro/"> <i class="fa fa-link"></i> Conference</a>  </td>
+        </tr>
+    </tbody>
     <thead>
         <tr>
             <th>2021</th>
