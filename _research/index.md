@@ -5,7 +5,6 @@ author_profile: true
 comments: false
 layout: single
 date: 2022-09-18
-classes: wide
 sidebar:
   nav: "foo2"
 
