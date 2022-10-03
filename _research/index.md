@@ -22,8 +22,8 @@ feature_row1:
     excerpt: "Leverage probabilistic machine learning tools to update risk models with early damage reports"
     url: "/research/rmgp/"
     btn_label: "Learn more"
-    btn_class: "btn--primary"
-    btn_size: "btn--small"
+    btn_class: "btn-primary"
+    btn_size: "btn-sm"
 
 feature_row2:
   - image_path: /assets/images/research/riskmeasure2.png
@@ -33,7 +33,7 @@ feature_row2:
     url: "/research/riskmeasure/"
     btn_label: "Learn more"
     btn_class: "btn--primary"
-    btn_size: "btn--small"
+    btn_size: "btn--x-large"
     
 feature_row3:
   - image_path: /assets/images/research/riskmeasure2.png
