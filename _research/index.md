@@ -22,7 +22,7 @@ feature_row1:
     excerpt: "Leverage probabilistic machine learning tools to update risk models with early damage reports"
     url: "/research/rmgp/"
     btn_label: "Learn more"
-    btn_class: "btn--primary btn-sm"
+    btn_class: "btn--primary btn--small"
 
 feature_row2:
   - image_path: /assets/images/research/riskmeasure2.png
@@ -31,7 +31,7 @@ feature_row2:
     excerpt: "Use existing GIS data and a small labelled data set to compose a building inventory for risk assessment"
     url: "/research/riskmeasure/"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn--primary btn--small"
     
 feature_row3:
   - image_path: /assets/images/research/riskmeasure2.png
