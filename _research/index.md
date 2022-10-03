@@ -21,8 +21,8 @@ feature_row1:
     title: "Dynamic updating of post-earthquake loss estimates"
     excerpt: "Leverage probabilistic machine learning tools to update risk models with early damage reports"
     url: "/research/rmgp/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_label: "Learn more"
+    btn_class: "btn--primary btn-sm"
 
 feature_row2:
   - image_path: /assets/images/research/riskmeasure2.png
