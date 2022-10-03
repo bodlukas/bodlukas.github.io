@@ -40,7 +40,7 @@ feature_row3:
     excerpt: "Use subadditive risk measures to establish an upper-bound relation between building-specific and regional seismic risk"
     url: "/research/riskmeasure/"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn--primary btn-sm"
 ---
 
 Here you'll find summaries of the major research projects I've done over the years.
@@ -50,7 +50,7 @@ Here you'll find summaries of the major research projects I've done over the yea
 {% include carousel.html height="70" unit="%" duration="7" number="1" %}
 
 
-{% include feature_row id="feature_row1" type="left" %}
+{% include feature_row2 id="feature_row1" type="left" %}
 
 {% include feature_row id="feature_row2" type="right" %}
 
