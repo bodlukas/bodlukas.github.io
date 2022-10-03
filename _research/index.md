@@ -27,12 +27,20 @@ feature_row1:
   - image_path: /assets/images/research/riskmeasure2.png
     alt: "riskmeasure"
     title: "Composition of an urban building inventory data set"
-    excerpt: "Use existing GIS data and a small labelled data set to compose a building inventory for risk assessment"
+    excerpt: "Use existing GIS data to compose a building inventory for risk assessment"
     url: "/research/riskmeasure/"
     btn_label: "Learn more"
     btn_class: "btn--primary"
     btn_size: "btn--small"
-
+  - image_path: /assets/images/research/riskmeasure2.png
+    alt: "riskmeasure"
+    title: "From building-specific to regional seismic risk and back"
+    excerpt: "Use subadditive risk measures to establish an upper-bound relation between building-specific and regional seismic risk"
+    url: "/research/riskmeasure/"
+    btn_label: "Learn more"
+    btn_class: "btn--primary"
+    btn_size: "btn--small"
+    
 feature_row2:
   - image_path: /assets/images/research/riskmeasure2.png
     alt: "riskmeasure"
