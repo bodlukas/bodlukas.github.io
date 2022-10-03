@@ -89,7 +89,7 @@ Here you'll find summaries of the major research projects I've done over the yea
             <td>Dynamic updating of building loss predictions using regional risk models and conventional post-earthquake data sources. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>31st European Safety and Reliability Conference (31ESREL), Angers, France.</em> 2021 <br /> <a class="btn btn--primary" href="http://esrel2021.org/en/index.html"> <i class="fa fa-link"></i> Conference</a> <a class="btn btn--primary" href="https://doi.org/10.3929/ethz-b-000507866"> <i class="fa fa-file-pdf"></i> Paper</a> </td>
         </tr>
         <tr>
-            <td>Using regional earthquake risk models as priors to dynamically assess the impact on residential buildings after an event. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>1st Croatian Conference on Earthquake Engineering (1CroCEE), Zagreb, Croatia.</em> 2021 <br /> <a class="btn btn--primary" href="https://crocee.grad.hr/event/1/"> <i class="fa fa-link"></i> Conference</a> <a class="btn btn--primary" href="https://doi.org/10.3929/ethz-b-000502087"> <i class="fa fa-file-pdf"></i> Abstract & Paper</a> </td>
+            <td>Using regional earthquake risk models as priors to dynamically assess the impact on residential buildings after an event. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>1st Croatian Conference on Earthquake Engineering (1CroCEE), Zagreb, Croatia.</em> 2021 <br /> <a class="btn btn--primary" href="https://crocee.grad.hr/event/1/"> <i class="fa fa-link"></i> Conference</a> <a class="btn btn--primary" href="https://doi.org/10.3929/ethz-b-000502087"> <i class="fa fa-file-pdf"></i> Paper</a> </td>
         </tr>
     </tbody>
     <thead>
