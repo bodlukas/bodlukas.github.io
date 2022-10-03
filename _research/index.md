@@ -22,8 +22,8 @@ feature_row1:
     excerpt: "Leverage probabilistic machine learning tools to update risk models with early damage reports"
     url: "/research/rmgp/"
     btn_label: "Learn more"
-    btn_class: "btn-primary"
-    btn_size: "btn-sm"
+    btn_class: "btn--primary"
+    btn_size: "btn--small"
 
 feature_row2:
   - image_path: /assets/images/research/riskmeasure2.png
@@ -33,7 +33,7 @@ feature_row2:
     url: "/research/riskmeasure/"
     btn_label: "Learn more"
     btn_class: "btn--primary"
-    btn_size: "btn--x-large"
+    btn_size: "btn--small"
     
 feature_row3:
   - image_path: /assets/images/research/riskmeasure2.png
@@ -41,9 +41,9 @@ feature_row3:
     title: "From building-specific to regional seismic risk and back"
     excerpt: "Use subadditive risk measures to establish an upper-bound relation between building-specific and regional seismic risk"
     url: "/research/riskmeasure/"
-    btn_label: "Read More"
-    btn_class: "btn--primary btn-sm"
-    btn_size: "btn--x-large"
+    btn_label: "Learn more"
+    btn_class: "btn--primary"
+    btn_size: "btn--small"
 ---
 
 Here you'll find summaries of the major research projects I've done over the years.
