@@ -43,7 +43,7 @@ feature_row3:
     url: "/research/riskmeasure/"
     btn_label: "Read More"
     btn_class: "btn--primary btn-sm"
-    btn_size: "btn--small"
+    btn_size: "btn--x-large"
 ---
 
 Here you'll find summaries of the major research projects I've done over the years.
