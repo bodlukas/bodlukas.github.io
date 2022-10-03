@@ -79,18 +79,37 @@ Here you'll find summaries of the major research projects I've done over the yea
 ## Conference Proceedings
 
 <table>
+    <thead>
+        <tr>
+            <th>2021</th>
+        </tr>
+    </thead>
     <tbody>
         <tr>
-            <td>Dynamic updating of building loss predictions using regional risk models and conventional post-earthquake data sources. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>31st European Safety and Reliability Conference (31ESREL), Angers, France.</em> 2021 <br /> <a class="btn btn--primary" href="https://doi.org/10.3850/978-981-18-2016-8_559-cd"> <i class="fa fa-link"></i> DOI</a> <a class="btn btn--primary" href="https://doi.org/10.3929/ethz-b-000507866"> <i class="fa fa-file-pdf"></i> Paper</a> </td>
+            <td>Dynamic updating of building loss predictions using regional risk models and conventional post-earthquake data sources. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>31st European Safety and Reliability Conference (31ESREL), Angers, France.</em> 2021 <br /> <a class="btn btn--primary" href="http://esrel2021.org/en/index.html"> <i class="fa fa-link"></i> Conference</a> <a class="btn btn--primary" href="https://doi.org/10.3929/ethz-b-000507866"> <i class="fa fa-file-pdf"></i> Paper</a> </td>
         </tr>
         <tr>
-            <td>Using regional earthquake risk models as priors to dynamically assess the impact on residential buildings after an event. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>1st Croatian Conference on Earthquake Engineering (1CroCEE), Zagreb, Croatia.</em> 2021 <br /> <a class="btn btn--primary" href="https://doi.org/10.5592/CO/1CroCEE.2021.71"> <i class="fa fa-link"></i> DOI</a> <a class="btn btn--primary" href="https://doi.org/10.3929/ethz-b-000502087"> <i class="fa fa-file-pdf"></i> Abstract & Paper</a> </td>
+            <td>Using regional earthquake risk models as priors to dynamically assess the impact on residential buildings after an event. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>1st Croatian Conference on Earthquake Engineering (1CroCEE), Zagreb, Croatia.</em> 2021 <br /> <a class="btn btn--primary" href="https://crocee.grad.hr/event/1/"> <i class="fa fa-link"></i> Conference</a> <a class="btn btn--primary" href="https://doi.org/10.3929/ethz-b-000502087"> <i class="fa fa-file-pdf"></i> Abstract & Paper</a> </td>
         </tr>
+    </tbody>
+    <thead>
         <tr>
-            <td>Comparison of different risk measures for portfolio-level earthquake risk assessment. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> <em>17th World Conference on Earthquake Engineering (17WCEE), Sendai, Japan.</em> 2020 <br /> <a class="btn btn--primary" href=" https://doi.org/10.5592/CO/1CroCEE.2021.71"> <i class="fa fa-file-pdf"></i> Abstract & Paper</a> </td>
+            <th>2020</th>
         </tr>
+    </thead>
+    <tbody>
         <tr>
-            <td>The financial benefit of earthquake retrofitting in different hazard environments. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> <em>11th U.S. National Conference on Earthquake Engineering (11NCEE), Los Angeles, California.</em> 2018 <br /> <a class="btn btn--primary" href="https://11ncee.org/"> <i class="fa fa-link"></i> Conference</a> <a class="btn btn--primary" href="https://doi.org/10.3929/ethz-b-000507866"> <i class="fa fa-file-pdf"></i> Paper</a></td>
+            <td>Comparison of different risk measures for portfolio-level earthquake risk assessment. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> <em>17th World Conference on Earthquake Engineering (17WCEE), Sendai, Japan.</em> 2020 <br /> <a class="btn btn--primary" href="https://www.jaee.gr.jp/jp/event/wcee/"> <i class="fa fa-link"></i> Conference</a> <a class="btn btn--primary" href="https://www.research-collection.ethz.ch/handle/20.500.11850/464975.7"> <i class="fa fa-file-pdf"></i> Paper</a> </td>
+        </tr>
+    </tbody>
+    <thead>
+        <tr>
+            <th>2018</th>
+        </tr>
+    </thead>  
+    <tbody>
+        <tr>
+            <td>The financial benefit of earthquake retrofitting in different hazard environments. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> <em>11th U.S. National Conference on Earthquake Engineering (11NCEE), Los Angeles, California.</em> 2018 <br /> <a class="btn btn--primary" href="https://11ncee.org/"> <i class="fa fa-link"></i> Conference</a> <a class="btn btn--primary" href="https://www.research-collection.ethz.ch/handle/20.500.11850/321783"> <i class="fa fa-file-pdf"></i> Paper</a></td>
         </tr>
     </tbody>
 </table>
