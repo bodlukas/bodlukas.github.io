@@ -39,7 +39,7 @@ Apart from such structural mitigation measures, effective disaster response and 
 
 {% include figure image_path="/assets/images/research/rmgp_rmonly.png" alt="schema_risk_model" caption="Simplified workflow of a regional earthquake risk model." %}
 
-{% include tabs id="tabs1" %}
+{% include tabs %}
 
 The **asset model** assembles the necessary information about the system of interest. In our case this is the building inventory of a specific region. The information pertains to the geographic locations of the individual buildings, their age, and some information on their geometries (such as their height). When information is missing the asset model specifies how we attribute missing information for the subsequent computations.
 
