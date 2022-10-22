@@ -1,17 +1,39 @@
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+  <h6>London</h6>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h6>Paris</h6>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h6>Tokyo</h6>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<!--
 {% if include.id %}
   {% assign tabs = page[include.id] %}
 {% else %}
   {% assign tabs = page.tabs %}
 {% endif %}
 
-<!-- Tab links -->
 <div class="tab">
   {% for f in tabs %}
     <button class="tablinks" onclick="openTab(event, f.id)">f.title<\button>
   {% endfor %}
 </div>
 
-<!-- Tab content -->
 {% for f in tabs %}
       <div id=f.id class="tabcontent">
         <h6>f.title</h6>
@@ -20,6 +42,7 @@
         </div>
       </div>
 {% endfor %}
+-->
 
 <style>
 .tab {
