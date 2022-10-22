@@ -7,6 +7,20 @@ layout: single
 date: 2022-09-18
 sidebar:
   nav: "foo2"
+  
+tabs1:
+  - id: ""Asset""
+    title: "Asset model"
+    excerpt: "Leverage probabilistic machine learning tools to update risk models with early damage reports"
+  - id: ""Source""
+    title: "Source model"
+    excerpt: "Source models are amazing."
+  - id: ""Ground-motion""
+    title: "Ground-motion model"
+    excerpt: "GMMs are amazing"
+  - id: ""Fragility""
+    title: "Fragility model"
+    excerpt: "adasfadfsg sgsfg sagfg asfsf   ."
 ---
 
 | [Preprint](https://doi.org/10.31224/2205){: .btn .btn--primary} | [Code](https://github.com/bodlukas/earthquake-rmgp){: .btn .btn--primary} |
@@ -24,6 +38,8 @@ Apart from such structural mitigation measures, effective disaster response and 
 
 
 {% include figure image_path="/assets/images/research/rmgp_rmonly.png" alt="schema_risk_model" caption="Simplified workflow of a regional earthquake risk model." %}
+
+{% include tabs id="tabs1" %}
 
 The **asset model** assembles the necessary information about the system of interest. In our case this is the building inventory of a specific region. The information pertains to the geographic locations of the individual buildings, their age, and some information on their geometries (such as their height). When information is missing the asset model specifies how we attribute missing information for the subsequent computations.
 
@@ -55,20 +71,6 @@ Gaussian process ... ... $\mathbf{f}\propto \mathcal{GP}(m(x),k(x,x)$ bla bla
 ### Gaussian process regression
 
 {% include figure image_path="/assets/images/research/ExampleGPR.png" alt="GPR" caption="Gaussian process regression" %}
-
-<!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'London')">London</button>
-  <button class="tablinks" onclick="openTab(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openTab(event, 'Tokyo')">Tokyo</button>
-</div>
-
-<!-- Tab content -->
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-</div>
-
 
 ### Ordinal Gaussian process regression
 
