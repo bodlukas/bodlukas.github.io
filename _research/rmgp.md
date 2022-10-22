@@ -46,7 +46,11 @@ Seismic risk is then computed ...
 
 ## The updating workflow
 
-Gaussian process ... ... 
+Gaussian process ... ... $\mathbf{f}\propto \mathcal{GP}(m(x),k(x,x)$ bla bla 
+
+\begin{align}
+  V_{sphere} = \frac{4}{3}\pi r^3 \label{eq:test1}
+\end{align}
 
 ### Gaussian process regression
 
