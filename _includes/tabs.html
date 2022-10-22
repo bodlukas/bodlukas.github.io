@@ -6,13 +6,13 @@
 
 <!-- Tab links -->
 <div class="tab">
-  {% for f in feature_row %}
+  {% for f in tabs %}
     <button class="tablinks" onclick="openTab(event, f.id)">f.title<\button>
   {% endfor %}
 </div>
 
 <!-- Tab content -->
-{% for f in feature_row %}
+{% for f in tabs %}
       <div id=f.id class="tabcontent">
         <h6>f.title</h6>
         <div>
