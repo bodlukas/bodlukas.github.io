@@ -1,4 +1,27 @@
-/* Style the tab */
+{% if include.id %}
+  {% assign tabs = page[include.id] %}
+{% else %}
+  {% assign tabs = page.tabs %}
+{% endif %}
+
+<!-- Tab links -->
+<div class="tab">
+  {% for f in feature_row %}
+    <button class="tablinks" onclick="openTab(event, f.id)">f.title<\button>
+  {% endfor %}
+</div>
+
+<!-- Tab content -->
+{% for f in feature_row %}
+      <div id=f.id class="tabcontent">
+        <h6>f.title</h6>
+        <div>
+            {{ f.excerpt | markdownify }}
+        </div>
+      </div>
+{% endfor %}
+
+<style>
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -33,24 +56,27 @@
   border: 1px solid #ccc;
   border-top: none;
 }
+</style>
 
-function openTab(evt, TabName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
+<script>
+  function openTab(evt, TabName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
 
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(TabName).style.display = "block";
+    evt.currentTarget.className += " active";
   }
-
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(TabName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
+</script>
