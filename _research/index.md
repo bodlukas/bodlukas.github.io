@@ -77,7 +77,7 @@ Here you'll find summaries of the major research projects I've done over the yea
 
 ## Journal Publications
 
-<table>
+<table width: 100%>
     <thead>
         <tr width="100%" border="1">
             <th>In review</th>
@@ -105,7 +105,7 @@ Here you'll find summaries of the major research projects I've done over the yea
 
 ## Conference Proceedings
 
-<table>
+<table width: 100%>
     <thead>
         <tr>
             <th>2022</th>
