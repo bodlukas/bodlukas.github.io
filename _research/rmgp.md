@@ -9,16 +9,16 @@ sidebar:
   nav: "foo2"
   
 tabs1:
-  - id: ""Asset""
+  - id: "Asset"
     title: "Asset model"
     excerpt: "Leverage probabilistic machine learning tools to update risk models with early damage reports"
-  - id: ""Source""
+  - id: "Source"
     title: "Source model"
     excerpt: "Source models are amazing."
-  - id: ""Ground-motion""
+  - id: "Ground-motion"
     title: "Ground-motion model"
     excerpt: "GMMs are amazing"
-  - id: ""Fragility""
+  - id: "Fragility"
     title: "Fragility model"
     excerpt: "adasfadfsg sgsfg sagfg asfsf   ."
 ---
