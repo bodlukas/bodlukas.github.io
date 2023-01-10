@@ -41,25 +41,6 @@ feature_row1:
     btn_class: "btn--primary"
     btn_size: "btn--small"
     
-feature_row2:
-  - image_path: /assets/images/research/riskmeasure2.png
-    alt: "riskmeasure"
-    title: "Composition of an urban building inventory data set"
-    excerpt: "Use existing GIS data and a small labelled data set to compose a building inventory for risk assessment"
-    url: "/research/riskmeasure/"
-    btn_label: "Learn more"
-    btn_class: "btn--primary"
-    btn_size: "btn--small"
-    
-feature_row3:
-  - image_path: /assets/images/research/riskmeasure2.png
-    alt: "riskmeasure"
-    title: "From building-specific to regional seismic risk and back"
-    excerpt: "Use subadditive risk measures to establish an upper-bound relation between building-specific and regional seismic risk"
-    url: "/research/riskmeasure/"
-    btn_label: "Learn more"
-    btn_class: "btn--primary"
-    btn_size: "btn--small"
 ---
 
 Here you'll find summaries of the major research projects I've done over the years. All of this is under development.
@@ -92,7 +73,7 @@ The publication list is up to date.
             <td>The role of risk measures in relating earthquake risk at building and portfolio level. <br /> Bodenmann, L., Broccardo, M., Galanis, P., and Stojadinović, B. <br /> <em>Submitted to Earthquake Engineering & Structural Dynamics</em> 2023 <br /> </td>
         </tr>
         <tr>
-          <td>Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>Submitted to Reliability Engineering & System Safety</em> 2022 <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at engXriv</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a></td>
+          <td>Dynamic post-earthquake updating of regional damage estimates using Gaussian processes. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>Submitted to Reliability Engineering & System Safety</em> 2022 <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at engXriv</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a></td>
         </tr>
     </tbody>
     <thead>
