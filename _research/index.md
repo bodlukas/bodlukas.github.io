@@ -67,7 +67,7 @@ The publication list is up to date.
     </thead>
     <tbody>
         <tr>
-            <td>Accounting for path and site effects in spatial ground-motion correlation models using Bayesian inference. <br /> Bodenmann, L., Bakerm J. W., and Stojadinović, B. <br /> <em>Submitted to Natural Hazards and Earth System Sciences </em> 2023 <br /> <a class="btn btn--primary" href="https://doi.org/10.5194/nhess-2022-267"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at NHESS</a><a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-correlation-bayes"> <i class="fa fa-code" aria-hidden="true"></i> code</a></td>
+            <td>Accounting for path and site effects in spatial ground-motion correlation models using Bayesian inference. <br /> Bodenmann, L., Baker J. W., and Stojadinović, B. <br /> <em>Submitted to Natural Hazards and Earth System Sciences </em> 2023 <br /> <a class="btn btn--primary" href="https://doi.org/10.5194/nhess-2022-267"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at NHESS</a> <a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-correlation-bayes"> <i class="fa fa-code" aria-hidden="true"></i> code</a></td>
         </tr>
         <tr>
             <td>The role of risk measures in relating earthquake risk at building and portfolio level. <br /> Bodenmann, L., Broccardo, M., Galanis, P., and Stojadinović, B. <br /> <em>Submitted to Earthquake Engineering & Structural Dynamics</em> 2023 <br /> </td>
