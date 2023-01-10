@@ -28,7 +28,7 @@ feature_row1:
     alt: "riskmeasure"
     title: "Composition of an urban building inventory data set"
     excerpt: "Use existing GIS data to compose a building inventory for risk assessment"
-    url: "/research/riskmeasure/"
+    url: "/research/inventory/"
     btn_label: "Learn more"
     btn_class: "btn--primary"
     btn_size: "btn--small"
@@ -62,7 +62,8 @@ feature_row3:
     btn_size: "btn--small"
 ---
 
-Here you'll find summaries of the major research projects I've done over the years.
+Here you'll find summaries of the major research projects I've done over the years. All of this is under development.
+The publication list is up to date.
 
 ## Selected Projects
 
@@ -85,7 +86,10 @@ Here you'll find summaries of the major research projects I've done over the yea
     </thead>
     <tbody>
         <tr>
-            <td>The role of risk measures in relating earthquake risk at building and portfolio level. <br /> Bodenmann, L., Broccardo, M., Galanis, P., and Stojadinović, B. <br /> <em>Submitted to Earthquake Engineering & Structural Dynamics</em> 2022 <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at engXriv</a></td>
+            <td>Accounting for path and site effects in spatial ground-motion correlation models using Bayesian inference. <br /> Bodenmann, L., Bakerm J. W., and Stojadinović, B. <br /> <em>Submitted to Natural Hazards and Earth System Sciences </em> 2023 <br /> <a class="btn btn--primary" href="https://doi.org/10.5194/nhess-2022-267"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at NHESS</a><a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-correlation-bayes"> <i class="fa fa-code" aria-hidden="true"></i> code</a></td>
+        </tr>
+        <tr>
+            <td>The role of risk measures in relating earthquake risk at building and portfolio level. <br /> Bodenmann, L., Broccardo, M., Galanis, P., and Stojadinović, B. <br /> <em>Submitted to Earthquake Engineering & Structural Dynamics</em> 2023 <br /> </td>
         </tr>
         <tr>
           <td>Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>Submitted to Reliability Engineering & System Safety</em> 2022 <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at engXriv</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a></td>
