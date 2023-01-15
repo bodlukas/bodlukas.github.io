@@ -22,8 +22,8 @@ feature_row1:
     btn_label: "Learn more"
     btn_class: "btn--primary"
     btn_size: "btn--small"
-  - image_path: /assets/images/research/riskmeasure2.png
-    alt: "riskmeasure"
+  - image_path: 
+    alt: "inventory data"
     title: "Composition of an urban building inventory data set"
     excerpt: "Use existing GIS data to compose a building inventory for risk assessment"
     url: "/research/inventory/"
