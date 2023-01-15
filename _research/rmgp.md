@@ -7,8 +7,6 @@ layout: single
 date: 2023-01-15
 ---
 
-| [Preprint](https://doi.org/10.31224/2205){: .btn .btn--primary} | [Code](https://github.com/bodlukas/earthquake-rmgp){: .btn .btn--primary} |
-
 UNDER DEVELOPMENT
 
 The widespread earthquake damage to the built environment induces severe short- and long-term societal consequences. Better community resilience may be achieved through well-organized recovery. Decisions to organize the recovery process are taken under intense time pressure using limited, and potentially inaccurate, data on the severity and the spatial distribution of building damage. 
