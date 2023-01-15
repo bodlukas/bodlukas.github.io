@@ -1,13 +1,11 @@
 ---
 title: "Selected Projects"
 permalink: /projects/
-author_profile: true
+author_profile: false
 comments: false
 layout: single
 classes: wide
-date: 2022-09-18
-sidebar:
-  nav: "foo2"
+date: 2023-01-15
 
 carousels:
   - images: 
