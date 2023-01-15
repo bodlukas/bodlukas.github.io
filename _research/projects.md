@@ -1,17 +1,11 @@
 ---
 title: "Selected Projects"
 permalink: /projects/
-author_profile: false
-comments: false
-layout: single
-classes: wide
+layout: splash
 date: 2023-01-15
-
-carousels:
-  - images: 
-    - image: /assets/images/research/Pollino_ShakeMapFrag.png
-    - image: /assets/images/research/riskmeasure2.png
-    - image: /assets/images/research/Pollino_ShakeMapFrag.png
+intro: 
+  - excerpt: 'Here you'll find summaries of some selected research projects I've done over the years. All of this is under development.'
+date: 2023-01-15
 
 feature_row1:
   - image_path: assets/images/research/Pollino_ShakeMapFrag.png
@@ -40,7 +34,5 @@ feature_row1:
     btn_size: "btn--small"
     
 ---
-
-Here you'll find summaries of some selected research projects I've done over the years. All of this is under development.
 
 {% include feature_row2 id="feature_row1" %}
