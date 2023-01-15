@@ -47,15 +47,15 @@ The **building inspections** typically consist of (i) an estimate of the inflict
 
 ## The updating workflow
 
-Gaussian process ... ... $\mathbf{f}\propto \mathcal{GP}(m(x),k(x,x)$ bla bla 
+Gaussian process ... 
 
 \begin{align}
-  V_{sphere} = \frac{4}{3}\pi r^3 \label{eq:test1}
+  f(x) \sim \mathcal{GP}(m(x),k(x,x))
 \end{align}
 
 ## Case studies
 
-Zurich and Pollino
+Zurich, Pollino and Kraljevo. 
 
 ...
 
