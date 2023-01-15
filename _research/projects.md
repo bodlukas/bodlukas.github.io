@@ -1,11 +1,10 @@
 ---
 title: "Selected Projects"
-permalink: /projects/
 layout: splash
+permalink: /projects/
 date: 2023-01-15
 intro: 
   - excerpt: 'Here you'll find summaries of some selected research projects I've done over the years. All of this is under development.'
-date: 2023-01-15
 
 feature_row1:
   - image_path: assets/images/research/Pollino_ShakeMapFrag.png
