@@ -3,8 +3,13 @@ title: "Selected Projects"
 layout: splash
 permalink: /projects/
 date: 2023-01-15
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: 
+excerpt: ""
 intro: 
-  - excerpt: 'Here you'll find summaries of some selected research projects I've done over the years. All of this is under development.'
+  - excerpt: "Here you'll find summaries of some selected research projects I've done over the years. All of this is under development."
 
 feature_row1:
   - image_path: assets/images/research/Pollino_ShakeMapFrag.png
