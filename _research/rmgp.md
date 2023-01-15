@@ -15,6 +15,8 @@ There exists a wide range of possible measures and actions to make communities m
 
 Apart from such structural mitigation measures, effective disaster response and recovery is crucial to reduce negative mid- and long-term consequences. 
 
+In this work, we suggest to encode domain knowledge in ordinal Gaussian process regression to update parts of the regional earthquake risk model using early damage reports from building inspection. The updated model is then used to issue post-earthquake loss estimates with increasing accuracy and precision. 
+
 ## Workflow for regional earthquake risk analysis
 
 {% include figure image_path="/assets/images/research/rmgp_rmonly.png" alt="schema_risk_model" caption="Simplified workflow of a regional earthquake risk model." %}
@@ -33,10 +35,13 @@ Seismic risk is then computed ...
 
 ## The post-earthquake situation
 
-... 
 ...
 
 {% include figure image_path="/assets/images/research/rmgp_github_bright.png" alt="schema_rmgp" caption="Schema of the proposed updating of a regional earthquake risk model with early-arriving post-earthquake data." %}
+
+The **seismic recordings** ... 
+
+The **building inspections** typically consist of (i) an estimate of the inflicted damage via discrete categories, so-called damage states, and (ii) decriptions of the type and material of the building examined. We use the first and second information to update the fragility model and the ground-motion model. The second information also allows us to improve our knowledge for the typological attribution performed in the asset model. 
 
 ## The updating workflow
 
