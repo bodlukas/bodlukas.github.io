@@ -15,7 +15,7 @@ Feel free to check out the summaries of some selected research projects.
 
 <a class = "fab fa-fw fa-linkedin" href="https://www.linkedin.com/in/lukas-bodenmann/"> </a>
 
-<a class="btn btn--primary" href="https://www.linkedin.com/in/lukas-bodenmann/"> <i class="fab fa-fw fa-linkedin"></i> LinkedIn</a> 
+<a class="btn btn--primary" href="https://www.linkedin.com/in/lukas-bodenmann/"> <i class="fab fa-fw fa-linkedin"></i> LinkedIn</a>  <a class="btn btn--primary" href="https://github.com/bodlukas"> <i class="fab fa-fw fa-github"></i> GitHub</a> 
 
 |--------------|---------|
 | News | |
