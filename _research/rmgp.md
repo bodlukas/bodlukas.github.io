@@ -59,9 +59,7 @@ Zurich, Pollino and Kraljevo.
 
 ...
 
-
-
-**More information** <br /> Bodenmann L., Reuland Y. and Stojadinovic B. (2022): Dynamic post-earthquake updating of regional damage estimates using Gaussian processes; Submitted to Reliability Engineering & System Safety. <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-link"></i> doi</a> <a class="btn btn--primary" href="https://engrxiv.org/preprint/download/2205/4410/3347"> <i class="fa fa-file-pdf fa-lg"></i> preprint</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
+**More information** <br /> Bodenmann L., Reuland Y. and Stojadinović B. (2022): Dynamic post-earthquake updating of regional damage estimates using Gaussian processes; Submitted to Reliability Engineering & System Safety. <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at engXriv</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--info}
 
 
