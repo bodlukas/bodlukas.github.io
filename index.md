@@ -6,6 +6,7 @@ permalink: /
 ---
 
 **Welcome**
+
 ![](/assets/images/li_1_web.jpg){: .align-left width="200"}
 I am a doctoral student at [ETH Zurich](https://www.ethz.ch/) and was a visiting researcher at [Stanford University](https://www.stanford.edu/). In my research, I use **probabilistic modelling** and **data analytics** to advance risk assessment for spatially distributed **infrastructure** exposed to **natural hazards**.
 
