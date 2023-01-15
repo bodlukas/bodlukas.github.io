@@ -19,6 +19,8 @@ In this work, we suggest to encode domain knowledge in ordinal Gaussian process 
 
 ## Workflow for regional earthquake risk analysis
 
+The following contains a simplified summary of the typical workflow for such regional analyses. You'll find more detailed descriptions in the excellent book by Baker et al. [Baker2021].
+
 {% include figure image_path="/assets/images/research/rmgp_rmonly.png" alt="schema_risk_model" caption="Simplified workflow of a regional earthquake risk model." %}
 
 The **asset model** assembles the necessary information about the system of interest. In our case this is the building inventory of a specific region. The information pertains to the geographic locations of the individual buildings, their age, and some information on their geometries (such as their height). When information is missing the asset model specifies how we attribute missing information for the subsequent computations.
@@ -57,13 +59,10 @@ Zurich and Pollino
 
 ...
 
-We really like the Robot Operating System [^ros]!
 
-{% include references.md %}
-
-## Summary
 
 **More information** <br /> Bodenmann L., Reuland Y. and Stojadinovic B. (2022): Dynamic post-earthquake updating of regional damage estimates using Gaussian processes; Submitted to Reliability Engineering & System Safety. <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-link"></i> doi</a> <a class="btn btn--primary" href="https://engrxiv.org/preprint/download/2205/4410/3347"> <i class="fa fa-file-pdf fa-lg"></i> preprint</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--info}
 
 
+{% include references.md %}
