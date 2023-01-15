@@ -15,6 +15,7 @@ Check out the summaries of some selected [research projects](https://bodlukas.gi
 
 <a class="btn btn--primary" href="https://www.linkedin.com/in/lukas-bodenmann/"> <i class="fab fa-fw fa-linkedin"></i> LinkedIn</a>  <a class="btn btn--primary" href="https://github.com/bodlukas"> <i class="fab fa-fw fa-github"></i> GitHub</a> 
 
+<!--  
 |--------------|---------|
 | News | |
 |--------------|---------|
@@ -24,3 +25,4 @@ Check out the summaries of some selected [research projects](https://bodlukas.gi
 | Nov 21, 2020  | Presentation at the Swiss Geoscience Meeting (online).  |
 | Jun 11, 2020  | Our paper "The role of risk measures in making seismic upgrading decisions" has been published by Earthquake Spectra. See [here](https://doi.org/10.1177/8755293020919423) for the paper. |
 | Aug 01, 2019  | Start of my doctoral studies at ETH Zurich  |
+-->
