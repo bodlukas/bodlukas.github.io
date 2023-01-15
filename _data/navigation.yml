@@ -4,7 +4,7 @@ main:
   - title: "Publications"
     url: /research/
   - title: "CV"
-    url: /research/
+    url: /assets/CV_LB.pdf
 
 foo:
   - title: "Selected Projects"
