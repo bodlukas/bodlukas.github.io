@@ -13,7 +13,7 @@ Before that, I worked as an infrastructure asset manager for the Swiss Federal R
 
 Feel free to check out the summaries of some selected research projects. 
 
-<a href="https://www.linkedin.com/in/lukas-bodenmann/"> <i class = "fab fa-fw fa-linkedin" </i> </a>
+<a class = "fab fa-fw fa-linkedin" href="https://www.linkedin.com/in/lukas-bodenmann/"> </a>
 
 <a class="btn btn--primary" href="https://doi.org/10.5194/nhess-2022-267"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at NHESS</a> 
 
