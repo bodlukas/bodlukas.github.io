@@ -4,8 +4,6 @@ layout: single
 classes: wide
 author_profile: false
 permalink: /
-sidebar:
-  nav: "foo2"
 ---
 
 
