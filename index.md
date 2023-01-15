@@ -2,7 +2,7 @@
 title: ""
 layout: single
 classes: wide
-author_profile: true
+author_profile: false
 permalink: /
 sidebar:
   nav: "foo2"
