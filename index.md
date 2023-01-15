@@ -7,12 +7,11 @@ permalink: /
 
 
 ![](/assets/images/li_1_web.jpg){: .align-left width="200"}
-I am a doctoral student at [ETH Zurich](https://www.ethz.ch/). In my research, I use **probabilistic modelling** and **data analytics** to advance risk assessment for spatially distributed **infrastructure** exposed to **natural hazards**.
+I am a doctoral student at [ETH Zurich](https://www.ethz.ch/) and was a visiting researcher at [Stanford University](https://www.stanford.edu/). In my research, I use **probabilistic modelling** and **data analytics** to advance risk assessment for spatially distributed **infrastructure** exposed to **natural hazards**.
 
-In 2022, I had the opportunity to conduct parts of my doctoral research at Stanford University in California.
 Before that, I worked as an infrastructure asset manager for the Swiss Federal Railway ([SBB](https://company.sbb.ch/en/home.html)).
 
-Feel free to check out the summaries of some selected research projects. 
+Check out the summaries of some selected [research projects](/_research/projects/), my [CV](/assets/CV_LB.pdf) and [publication list](/_research/publications/).
 
 <a class="btn btn--primary" href="https://www.linkedin.com/in/lukas-bodenmann/"> <i class="fab fa-fw fa-linkedin"></i> LinkedIn</a>  <a class="btn btn--primary" href="https://github.com/bodlukas"> <i class="fab fa-fw fa-github"></i> GitHub</a> 
 
