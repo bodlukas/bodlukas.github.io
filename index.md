@@ -11,7 +11,7 @@ I am a doctoral student at [ETH Zurich](https://www.ethz.ch/) and was a visiting
 
 Before that, I worked as an infrastructure asset manager for the Swiss Federal Railway ([SBB](https://company.sbb.ch/en/home.html)).
 
-Check out the summaries of some selected [research projects](/_research/projects/), my [CV](/assets/CV_LB.pdf) and [publication list](/_research/publications/).
+Check out the summaries of some selected [research projects](https://bodlukas.github.io/projects/), my [CV](/assets/CV_LB.pdf) and [publication list](https://bodlukas.github.io/publications/).
 
 <a class="btn btn--primary" href="https://www.linkedin.com/in/lukas-bodenmann/"> <i class="fab fa-fw fa-linkedin"></i> LinkedIn</a>  <a class="btn btn--primary" href="https://github.com/bodlukas"> <i class="fab fa-fw fa-github"></i> GitHub</a> 
 
