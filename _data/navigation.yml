@@ -1,8 +1,8 @@
 main:
   - title: "Projects"
-    url: /
+    url: /projects/
   - title: "Publications"
-    url: /research/
+    url: /publications/
   - title: "CV"
     url: /assets/CV_LB.pdf
 
