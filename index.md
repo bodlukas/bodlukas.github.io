@@ -15,7 +15,7 @@ Feel free to check out the summaries of some selected research projects.
 
 <a class = "fab fa-fw fa-linkedin" href="https://www.linkedin.com/in/lukas-bodenmann/"> </a>
 
-<a class="btn btn--primary" href="https://doi.org/10.5194/nhess-2022-267"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at NHESS</a> 
+<a class="btn btn--primary" href="https://www.linkedin.com/in/lukas-bodenmann/"> <i class="fab fa-fw fa-linkedin"></i> LinkedIn</a> 
 
 |--------------|---------|
 | News | |
