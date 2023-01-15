@@ -1,6 +1,7 @@
 ---
 title: ""
-layout: wide
+layout: single
+classes: wide
 author_profile: true
 permalink: /
 sidebar:
