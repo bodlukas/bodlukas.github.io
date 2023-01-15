@@ -19,17 +19,17 @@ In this work, we suggest to encode domain knowledge in ordinal Gaussian process 
 
 ## Workflow for regional earthquake risk analysis
 
-The following contains a simplified summary of the typical workflow for such regional analyses. You'll find more detailed descriptions in the excellent book by Baker et al. [^Baker2021].
+The following contains a simplified summary of the typical workflow for such regional analyses. More detailed descriptions can be found in the excellent book by Baker, Bradley and Stafford [^Baker2021].
 
 {% include figure image_path="/assets/images/research/rmgp_rmonly.png" alt="schema_risk_model" caption="Simplified workflow of a regional earthquake risk model." %}
 
 The **asset model** assembles the necessary information about the system of interest. In our case this is the building inventory of a specific region. The information pertains to the geographic locations of the individual buildings, their age, and some information on their geometries (such as their height). When information is missing the asset model specifies how we attribute missing information for the subsequent computations.
 
-The **source model** consists of the characterization of potential earthquake ruptures that may affect the region of interest. It is primarily derived from earthquake catalogues. 
+The **source model** consists of the characterization of potential earthquake ruptures that may affect the region of interest. It is typically derived via statistical analyses of historical earthquake events in combination with physical constraints and geodesic measurements. 
 
-The **ground-motion model** predicts the level of ground-shaking at the surface induced by a specific earthquake rupture. Typically, ground-shaking is expressed via intensity measures such as peak ground acceleration. There exists empirical and physics-based ground-motion models. 
+The **ground-motion model** predicts the level of ground-shaking at the surface induced by a specific earthquake rupture. Typically, ground-shaking is expressed via intensity measures such as peak ground acceleration. There exist empirical and physics-based ground-motion models that provide probabilistic estimates of such intensity measures at the geographic locations of interest. 
 
-The **fragility model** estimates the building damage as a result of a certain level of ground-shaking. Analytically and empirically derived fragility functions ...
+The **fragility model** estimates the building damage as a result of a certain level of ground-shaking. Such models are derived via high-fidelity structural models of archetype buildings and empirically using damage data from past earthquakes. In the following we assume that building damage is described via discrete
 
 The **loss model** computes system-wide losses as a result of the individual component damage states. ... 
 
