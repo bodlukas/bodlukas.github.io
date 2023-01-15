@@ -1,12 +1,10 @@
 ---
 title: "Dynamic updating of post-earthquake loss estimates"
 permalink: /research/rmgp/
-author_profile: true
+author_profile: false
 comments: false
 layout: single
-date: 2022-09-18
-sidebar:
-  nav: "foo2"
+date: 2023-01-15
 ---
 
 | [Preprint](https://doi.org/10.31224/2205){: .btn .btn--primary} | [Code](https://github.com/bodlukas/earthquake-rmgp){: .btn .btn--primary} |
@@ -21,31 +19,7 @@ Apart from such structural mitigation measures, effective disaster response and 
 
 ## Workflow for regional earthquake risk analysis
 
-
-
 {% include figure image_path="/assets/images/research/rmgp_rmonly.png" alt="schema_risk_model" caption="Simplified workflow of a regional earthquake risk model." %}
-
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'London')">London</button>
-  <button class="tablinks" onclick="openTab(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openTab(event, 'Tokyo')">Tokyo</button>
-</div>
-
-<!-- Tab content -->
-<div id="London" class="tabcontent">
-  <h6>London</h6>
-  <p>London is the capital city of England.</p>
-</div>
-
-<div id="Paris" class="tabcontent">
-  <h6>Paris</h6>
-  <p>Paris is the capital of France.</p>
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h6>Tokyo</h6>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
 
 The **asset model** assembles the necessary information about the system of interest. In our case this is the building inventory of a specific region. The information pertains to the geographic locations of the individual buildings, their age, and some information on their geometries (such as their height). When information is missing the asset model specifies how we attribute missing information for the subsequent computations.
 
@@ -74,14 +48,6 @@ Gaussian process ... ... $\mathbf{f}\propto \mathcal{GP}(m(x),k(x,x)$ bla bla
   V_{sphere} = \frac{4}{3}\pi r^3 \label{eq:test1}
 \end{align}
 
-### Gaussian process regression
-
-{% include figure image_path="/assets/images/research/ExampleGPR.png" alt="GPR" caption="Gaussian process regression" %}
-
-### Ordinal Gaussian process regression
-
-...
-
 ## Case studies
 
 Zurich and Pollino
@@ -90,7 +56,7 @@ Zurich and Pollino
 
 ## Summary
 
-**More information** <br /> Bodenmann L., Reuland Y. and Stojadinovic B. (2022): Dynamic Post-Earthquake Updating of Regional Damage Estimates Using Gaussian Processes; Submitted to Reliability Engineering & System Safety. <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-link"></i> doi</a> <a class="btn btn--primary" href="https://engrxiv.org/preprint/download/2205/4410/3347"> <i class="fa fa-file-pdf fa-lg"></i> preprint</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
+**More information** <br /> Bodenmann L., Reuland Y. and Stojadinovic B. (2022): Dynamic post-earthquake updating of regional damage estimates using Gaussian processes; Submitted to Reliability Engineering & System Safety. <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-link"></i> doi</a> <a class="btn btn--primary" href="https://engrxiv.org/preprint/download/2205/4410/3347"> <i class="fa fa-file-pdf fa-lg"></i> preprint</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--info}
 
 
