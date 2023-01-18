@@ -10,7 +10,15 @@ header:
 excerpt: "Research papers published in peer-reviewed journals and conference proceedings"   
 ---
 
-Bodenmann L., Reuland Y. and Stojadinović B. (2022): Dynamic post-earthquake updating of regional damage estimates using Gaussian processes; Submitted to Reliability Engineering & System Safety. <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at engXriv</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
+## Journal Publications
+
+Accounting for path and site effects in spatial ground-motion correlation models using Bayesian inference. <br /> Bodenmann, L., Baker J. W., and Stojadinović, B. <br /> <em>Submitted to Natural Hazards and Earth System Sciences </em> 2023 <br /> <a class="btn btn--primary" href="https://doi.org/10.5194/nhess-2022-267"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at NHESS</a> <a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-correlation-bayes"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
+{: .notice--primary}
+
+The role of risk measures in relating earthquake risk at building and portfolio level. <br /> Bodenmann, L., Broccardo, M., Galanis, P., and Stojadinović, B. <br /> <em>Submitted to Earthquake Engineering & Structural Dynamics</em> 2023 <br />
+{: .notice--primary}
+
+Dynamic post-earthquake updating of regional damage estimates using Gaussian processes. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em>Submitted to Reliability Engineering & System Safety</em> 2022 <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at engXriv</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--primary}
 
 ## Journal Publications
