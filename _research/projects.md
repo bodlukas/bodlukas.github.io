@@ -4,10 +4,10 @@ layout: splash
 permalink: /projects/
 date: 2023-01-15
 header:
-  overlay_color: "#111"
+  overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: 
-excerpt: "Here you'll find summaries of some selected research projects I've done over the years. Work in progress."
+  overlay_image: assets/images/potosi.png
+excerpt: "Summaries of some research projects I've done over the years. Work in progress."
 
 feature_row1:
   - image_path: assets/images/research/Pollino_ShakeMapFrag.png
