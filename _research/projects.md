@@ -4,7 +4,7 @@ layout: splash
 permalink: /projects/
 date: 2023-01-15
 header:
-  overlay_color: "#111"
+  overlay_color: "#0.10.10.1"
   overlay_filter: "0.8"
   overlay_image: 
 excerpt: "Summaries of some research projects I've done over the years. Work in progress."
