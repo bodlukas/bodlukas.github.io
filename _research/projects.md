@@ -6,7 +6,7 @@ date: 2023-01-15
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: assets/images/potosi.png
+  overlay_image: assets/images/potosi.jpg
 excerpt: "Summaries of some research projects I've done over the years. Work in progress."
 
 feature_row1:
