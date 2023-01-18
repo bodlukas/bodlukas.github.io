@@ -5,6 +5,10 @@ author_profile: false
 comments: false
 layout: single
 date: 2023-01-15
+toc: true
+toc_label: "Content"
+toc_icon: "heart"  
+toc_sticky: true  
 ---
 
 WORK IN PROGRESS
