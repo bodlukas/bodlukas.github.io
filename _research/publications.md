@@ -7,7 +7,7 @@ header:
   overlay_color: "#111"
   overlay_filter: "0.5"
   overlay_image: 
-excerpt: "List of research papers published in peer-reviewed journals and conference proceedings"   
+excerpt: "Research papers published in peer-reviewed journals and conference proceedings"   
 ---
 
 <ul class="nav nav-tabs">
