@@ -4,11 +4,41 @@ permalink: /publications/
 layout: splash
 date: 2023-01-15
 header:
-  overlay_color: "#0.90.90.9"
+  overlay_color: "#111"
   overlay_filter: "0.5"
   overlay_image: 
 excerpt: "List of research papers published in peer-reviewed journals and conference proceedings"   
 ---
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href="#home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" aria-current="page" href="#profile">Profile</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" aria-current="page" href="#messages">Messages</a>
+  </li>
+</ul>
+
+<div class="tab-content">
+  <div class="tab-pane active" id="home" aria-labelledby="home-tab">
+    <editor_fold Home>
+    Home at last!
+    </editor_fold>
+  </div>
+  <div class="tab-pane" id="profile" aria-labelledby="profile-tab">
+    <editor_fold Profile>
+      Profile meeee...
+    </editor_fold>
+  </div>
+  <div class="tab-pane" id="messages" aria-labelledby="messages-tab">
+    <editor_fold Messages>
+      Messages - I have none
+    </editor_fold>
+  </div>
+</div>
 
 ## Journal Publications
 
