@@ -42,7 +42,7 @@ In the immediate aftermath of an earthquake, it is imperative to use the early-a
 
 {% include figure image_path="/assets/images/research/rmgp_github_bright.png" alt="schema_rmgp" caption="Schema of the proposed updating of a regional earthquake risk model with early-arriving post-earthquake data." %}
 
-The first damage estimates are obtained using a regional risk model, where estimates of ground motion IMs are constrained by seismic recordings, analogous to the current shake map systems. 
+The first damage estimates are obtained using a regional risk model, where estimates of ground motion IMs are constrained by seismic recordings, analogous to the current [shake map](https://earthquake.usgs.gov/data/shakemap/) systems. 
 
 Then, data from the first inspected buildings is used to further constrain the shake map and, in parallel, update the building vulnerability function parameters
 as well as the typological attribution model. 
