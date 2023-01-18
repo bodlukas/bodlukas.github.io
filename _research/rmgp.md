@@ -7,7 +7,7 @@ layout: single
 date: 2023-01-15
 toc: true
 toc_label: "Content"
-toc_icon: "bars-staggered"  
+toc_icon: "bars"  
 toc_sticky: true  
 ---
 
