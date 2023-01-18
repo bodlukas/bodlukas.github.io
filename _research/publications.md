@@ -4,8 +4,8 @@ permalink: /publications/
 layout: splash
 date: 2023-01-15
 header:
-  overlay_color: "#111"
-  overlay_filter: "0.5"
+  overlay_color: "#0.90.90.9"
+  overlay_filter: "0.05"
   overlay_image: 
 excerpt: "Research papers published in peer-reviewed journals and conference proceedings"   
 ---
