@@ -50,5 +50,8 @@ as well as the typological attribution model.
 ## Case studies
 coming soon ...
 
+## Summary
+coming soon ...
+
 
 {% include references.md %}
