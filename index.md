@@ -14,7 +14,7 @@ Before that, I worked as an infrastructure asset manager for the Swiss Federal R
 
 This website contains summaries of some selected [research projects](https://bodlukas.github.io/projects/), my [CV](/assets/CV_LB.pdf) and [publication list](https://bodlukas.github.io/publications/).
 
-<a class="btn btn--primary" href="https://www.linkedin.com/in/lukas-bodenmann/"> <i class="fab fa-fw fa-linkedin"></i> LinkedIn</a>  <a class="btn btn--primary" href="https://github.com/bodlukas"> <i class="fab fa-fw fa-github"></i> GitHub</a> 
+<a class="btn btn--primary" href="https://www.linkedin.com/in/lukas-bodenmann/"> <i class="fab fa-fw fa-linkedin"></i> LinkedIn</a>  <a class="btn btn--primary" href="https://github.com/bodlukas"> <i class="fab fa-fw fa-github"></i> GitHub</a>   <a class="btn btn--primary" href="https://orcid.org/0000-0002-7742-3306"> <i class="fab fa-fw fa-orcid"></i> ORCid</a>
 
 <!--  
 |--------------|---------|
