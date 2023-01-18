@@ -11,8 +11,6 @@ toc_icon: "bars"
 toc_sticky: true  
 ---
 
-WORK IN PROGRESS
-
 The widespread earthquake damage to the built environment induces severe short- and long-term societal consequences. Better community resilience may be achieved through well-organized recovery. Decisions to organize the recovery process are taken under intense time pressure using limited, and potentially inaccurate, data on the severity and the spatial distribution of building damage. 
 
 In this work, we suggest to encode domain knowledge in ordinal Gaussian process regression to update parts of the regional earthquake risk model using early damage reports from building inspection. The updated model is then used to issue post-earthquake loss estimates with increasing accuracy and precision. 
@@ -30,7 +28,7 @@ The **asset model** assembles the necessary information about the system of inte
 
 The **source model** consists of the characterization of potential earthquake ruptures that may affect the region of interest. It is typically derived via statistical analyses of historical earthquake events in combination with physical constraints and geodesic measurements. 
 
-The **ground-motion model** predicts the level of ground-shaking at the surface induced by a specific earthquake rupture. Typically, ground-shaking is expressed via intensity measures such as peak ground acceleration. There exist empirical and physics-based ground-motion models that provide probabilistic estimates of such intensity measures at the geographic locations of interest. 
+The **ground-motion model** predicts the level of ground-shaking at the surface induced by a specific earthquake rupture. Typically, ground-shaking is expressed via intensity measures such as peak ground acceleration. There exist empirical and physics-based ground-motion models that provide probabilistic estimates of such intensity measures at the geographic locations of interest. Here we focus on empirical models, which model the spatial distribution of the intensity measure(s) as a stochastic process (also called random field). In the linked paper, we explain how such models can be expressed as Gaussian processes (GPs).
 
 The **fragility model** estimates the building damage as a result of a certain level of ground-shaking. Such models are derived via high-fidelity structural models of archetype buildings, and empirically using damage data from past earthquakes. In the following, we assume that building damage is described via discrete categories (e.g., none, slight, ..., complete), so-called damage states.
 
@@ -42,14 +40,13 @@ In the immediate aftermath of an earthquake, it is imperative to use the early-a
 
 {% include figure image_path="/assets/images/research/rmgp_github_bright.png" alt="schema_rmgp" caption="Schema of the proposed updating of a regional earthquake risk model with early-arriving post-earthquake data." %}
 
-Within minutes after the event, ground-motion recordings from a **seismic network** become available. These are used to: (i) gather information on the occurred rupture (such as its magnitude, location and extent), and (ii) constrain estimates of ground-motion IMs (analogous to the current [shake map](https://earthquake.usgs.gov/data/shakemap/) systems). In combination with a regional risk model, these updated estimates are then used to obtain first damage estimates.
-
+Within minutes after the event, ground-motion recordings from a **seismic network** become available. These are used to: _(i)_ gather information on the occurred rupture (such as its magnitude, location and extent), and _(ii)_ constrain estimates of ground-motion IMs (analogous to the current [shake map](https://earthquake.usgs.gov/data/shakemap/) systems). As we show in the paper, step _(ii)_ is essentially equivalent to GP regression[^GPML2006]. In combination with a regional risk model, we then obtain first damage estimates. 
 
 Then, data from the first inspected buildings is used to further constrain the shake map and, in parallel, update the building vulnerability function parameters
 as well as the typological attribution model. 
 
 ## Case studies
-coming soon ...
+We tested the proposed framework in three case-studies (see figure below). I would to illustrate some key characteristics ... 
 
 ## Summary
 coming soon ...
