@@ -22,7 +22,7 @@ In this work, we suggest to encode domain knowledge in ordinal Gaussian process 
 
 ## Workflow for regional earthquake risk analysis
 
-The following contains a simplified summary of the typical workflow for such regional analyses. More detailed descriptions can be found in the excellent book by Baker, Bradley and Stafford [^Baker2021].
+The following contains a simplified summary of the typical workflow for such regional analyses. More detailed descriptions can be found in the excellent book by Baker, Bradley and Stafford[^Baker2021], and in the highly recommended report by Deierlein and Zsarnóczay[^SimCenter2021].
 
 {% include figure image_path="/assets/images/research/rmgp_rmonly.png" alt="schema_risk_model" caption="Simplified workflow of a regional earthquake risk model." %}
 
