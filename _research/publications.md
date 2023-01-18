@@ -1,10 +1,13 @@
 ---
 title: "Publications"
 permalink: /publications/
-author_profile: false
-comments: false
-layout: single
-date: 2023-01-15   
+layout: splash
+date: 2023-01-15
+header:
+  overlay_color: "#111"
+  overlay_filter: "0.5"
+  overlay_image: 
+excerpt: "List of research papers published in peer-reviewed journals and conference proceedings"   
 ---
 
 ## Journal Publications
