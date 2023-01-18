@@ -10,36 +10,6 @@ header:
 excerpt: "Research papers published in peer-reviewed journals and conference proceedings"   
 ---
 
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href="#home">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-bs-toggle="tab" aria-current="page" href="#profile">Profile</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-bs-toggle="tab" aria-current="page" href="#messages">Messages</a>
-  </li>
-</ul>
-
-<div class="tab-content">
-  <div class="tab-pane active" id="home" aria-labelledby="home-tab">
-    <editor_fold Home>
-    Home at last!
-    </editor_fold>
-  </div>
-  <div class="tab-pane" id="profile" aria-labelledby="profile-tab">
-    <editor_fold Profile>
-      Profile meeee...
-    </editor_fold>
-  </div>
-  <div class="tab-pane" id="messages" aria-labelledby="messages-tab">
-    <editor_fold Messages>
-      Messages - I have none
-    </editor_fold>
-  </div>
-</div>
-
 Bodenmann L., Reuland Y. and Stojadinović B. (2022): Dynamic post-earthquake updating of regional damage estimates using Gaussian processes; Submitted to Reliability Engineering & System Safety. <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at engXriv</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--primary}
 
