@@ -44,10 +44,12 @@ Within minutes after the event, ground-motion recordings from a **seismic networ
 
 Then, first damage estimates are obtained by including the determined rupture characteristics and the constrained ground-motion estimates in the regional risk model.
 
-Within hours and days after the event, public agencies and volunteers start with **building inspection**. Through visual inspection, experts are asked to assess the building condition and whether a damaged building is safe enough to be re-occupied by its residents. Typically, the inflicted damage is stated in terms of a certain damage category. Here we assume that those categories are consistent with the damage states employed in the fragility model of the risk model. Besides this damage description, experts also provide some basic building attributes, e.g., the dominating material of the lateral load-resisting system and its type(REF). 
+Within hours and days after the event, public agencies and volunteers start with **building inspection**. Through visual inspection, experts are asked to assess the building condition and whether a damaged building is safe enough to be re-occupied by its residents. 
 
-Then, data from the first inspected buildings is used to further constrain the shake map and, in parallel, update the building vulnerability function parameters
-as well as the typological attribution model. 
+Typically, the inflicted damage is stated in terms of a certain damage category. Here we assume that those categories are consistent with the damage states employed in the fragility model of the risk model. Besides this damage description, experts also provide some basic building attributes that were not known prior to the event, e.g., the dominating material of the lateral load-resisting system and its type(REF). 
+
+While completing the entire inspection campaign may take weeks to months, our proposed framework uses data from the first inspected buildings to update (i) the shake map, (ii) the fragility model, and (iii) the typological attribution process of the asset model. 
+The gathered attributes, together with the information available in the asset model, allows an allocation of the 
 
 ## Case studies
 We tested the proposed framework in three case-studies (see figure below). I would to illustrate some key characteristics ... 
