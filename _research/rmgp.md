@@ -18,7 +18,7 @@ In this work, we suggest to encode domain knowledge in ordinal Gaussian process 
 **More information** <br /> Bodenmann L., Reuland Y. and Stojadinović B. (2022): Dynamic post-earthquake updating of regional damage estimates using Gaussian processes; Submitted to Reliability Engineering & System Safety. <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/2205"> <i class="fa fa-file-pdf fa-lg"></i> Preprint at engXriv</a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--info}
 
-## Workflow for regional earthquake risk analysis
+## Regional earthquake risk model
 
 The following contains a simplified summary of the typical workflow for such regional analyses. More detailed descriptions can be found in the excellent book by Baker, Bradley and Stafford[^Baker2021], and in the highly recommended report by Deierlein and Zsarnóczay[^SimCenter2021].
 
@@ -40,7 +40,11 @@ In the immediate aftermath of an earthquake, it is imperative to use the early-a
 
 {% include figure image_path="/assets/images/research/rmgp_github_bright.png" alt="schema_rmgp" caption="Schema of the proposed updating of a regional earthquake risk model with early-arriving post-earthquake data." %}
 
-Within minutes after the event, ground-motion recordings from a **seismic network** become available. These are used to: _(i)_ gather information on the occurred rupture (such as its magnitude, location and extent), and _(ii)_ constrain estimates of ground-motion IMs (analogous to the current [shake map](https://earthquake.usgs.gov/data/shakemap/) systems). As we show in the paper, step _(ii)_ is essentially equivalent to GP regression[^GPML2006]. In combination with a regional risk model, we then obtain first damage estimates. 
+Within minutes after the event, ground-motion recordings from a **seismic network** become available. These are used to: _(i)_ determine characteristics of the occurred rupture (such as its magnitude, location and extent), and _(ii)_ constrain ground-motion estimates (analogous to current [shake map](https://earthquake.usgs.gov/data/shakemap/) systems). Because the spatial distribution of (logarithmic) intensity measures can be expressed as a GP, step _(ii)_ is essentially equivalent to GP regression[^GPML2006]. 
+
+Then, first damage estimates are obtained by including the determined rupture characteristics and the constrained ground-motion estimates in the regional risk model.
+
+During building inspection, experts usually provide an estimate of the inflicted damage via attributing a certain damage category. Here we assume that those are consistent with the damage states employed in the fragility model of the risk model. Besides this damage description, experts are also asked to provide some basic building attributes, e.g., the dominating material of the lateral load-resisting system and its type. See for a summary on the inspection forms used in different countries. 
 
 Then, data from the first inspected buildings is used to further constrain the shake map and, in parallel, update the building vulnerability function parameters
 as well as the typological attribution model. 
