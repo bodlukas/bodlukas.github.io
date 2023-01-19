@@ -53,9 +53,6 @@ While completing the entire inspection campaign may take weeks to months, our pr
 
 Based on the damage data, we estimate an updated spatial distribution of ground-motion intensity measure (i.e., an updated shake map), while in parallel updating the fragility model. This is achieved via ordinal GP regression LINK and variational inference LINK.
 
-Specifically, we use the data to update (i) the shake map, (ii) the fragility model, and (iii) the typological attribution process of the asset model. 
-The gathered attributes, together with the information available in the asset model, allows an allocation of the 
-
 ## Case studies
 We tested the proposed framework in three case-studies (see figure below). I would to illustrate some key characteristics ... 
 
