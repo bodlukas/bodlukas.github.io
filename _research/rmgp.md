@@ -46,8 +46,6 @@ Then, first damage estimates are obtained by including the determined rupture ch
 
 Within hours and days after the event, public agencies and volunteers start with **building inspection**. Through visual inspection, experts are asked to assess the building condition and whether a damaged building is safe enough to be re-occupied by its residents. Typically, the inflicted damage is stated in terms of a certain damage category. Here we assume that those categories are consistent with the damage states employed in the fragility model of the risk model. Besides this damage description, experts also provide some basic building attributes, e.g., the dominating material of the lateral load-resisting system and its type(REF). 
 
-
-
 Then, data from the first inspected buildings is used to further constrain the shake map and, in parallel, update the building vulnerability function parameters
 as well as the typological attribution model. 
 
