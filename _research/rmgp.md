@@ -48,6 +48,7 @@ Within hours and days after the event, public agencies and volunteers start with
 
 Typically, the inflicted damage is stated in terms of a certain damage category. Here we assume that those categories are consistent with the damage states employed in the fragility model of the risk model. Besides this damage description, experts also provide some basic building attributes that were not known prior to the event, e.g., the dominating material of the lateral load-resisting system and its type LINK. 
 
+
 While completing the entire inspection campaign may take weeks to months, our proposed framework dynamically ingests data from the first inspected buildings to deliver increasingly accurate and precise predictions. Specifically, we use the data to perform uptades in following two steps.
 
 Based on the damage data, we estimate an updated spatial distribution of ground-motion intensity measure (i.e., an updated shake map), while in parallel updating the fragility model. This is achieved via ordinal GP regression LINK and variational inference LINK.
