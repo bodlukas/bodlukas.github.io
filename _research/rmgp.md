@@ -28,7 +28,7 @@ The **asset model** assembles the necessary information about the system of inte
 
 The **source model** consists of the characterization of potential earthquake ruptures that may affect the region of interest. It is typically derived via statistical analyses of historical earthquake events in combination with physical constraints and geodesic measurements. 
 
-The **ground-motion model** predicts the level of ground-shaking at the surface induced by a specific earthquake rupture. Typically, ground-shaking is expressed via intensity measures such as peak ground acceleration. There exist empirical and physics-based ground-motion models that provide probabilistic estimates of such intensity measures at the geographic locations of interest. Here we focus on empirical models, which model the spatial distribution of the intensity measure(s) as a stochastic process (also called random field). In the linked paper, we explain how such models can be expressed as Gaussian processes (GPs).
+The **ground-motion model** predicts the level of ground-shaking at the surface induced by a specific earthquake rupture. Typically, ground-shaking is expressed via intensity measures such as peak ground acceleration. There exist empirical and physics-based ground-motion models that provide probabilistic estimates of such intensity measures at the geographic locations of interest. Here we focus on empirical models, which model the spatial distribution of the intensity measure(s) as a stochastic process (also called random field). In our paper[^Bodenmann2022], we explain how such models can be expressed as Gaussian processes (GPs).
 
 The **fragility model** estimates the building damage as a result of a certain level of ground-shaking. Such models are derived via high-fidelity structural models of archetype buildings, and empirically using damage data from past earthquakes. In the following, we assume that building damage is described via discrete categories (e.g., none, slight, ..., complete), so-called damage states.
 
@@ -57,19 +57,19 @@ Based on the damage data, we estimate an updated spatial distribution of ground-
 ## Case studies
 We tested the proposed framework in three case-studies: (a) a simulated earthquake event affecting Zurich (Switzerland), (b) the 1998 Pollino earthquake in Italy, and (c) the 2010 Kraljevo earthquake in Serbia. 
 
-{% include figure image_path="/assets/images/research/OverviewTotal.png" alt="schema_risk_model" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively." %}
+{% include figure image_path="/assets/images/research/OverviewTotal.png" alt="schema_risk_model" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from Bodenmann et al.[^Bodenmann2022]" %}
 
 **Zurich**
 
-{% include figure image_path="/assets/images/research/Fig7.png" alt="zurich_sm" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively." %}
+{% include figure image_path="/assets/images/research/Fig7.png" alt="zurich_sm" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from Bodenmann et al.[^Bodenmann2022]" %}
 
 **Pollino**
 
-{% include figure image_path="/assets/images/research/Pollino_ShakeMapFrag.png" alt="pollino_frag" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively." %}
+{% include figure image_path="/assets/images/research/Pollino_ShakeMapFrag.png" alt="pollino_frag" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from Bodenmann et al.[^Bodenmann2022]" %}
 
 **Comparison to random forest and linear regression**
 
-{% include figure image_path="/assets/images/research/Fig6.png" alt="comparison_error" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively." %}
+{% include figure image_path="/assets/images/research/Fig6.png" alt="comparison_error" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from Bodenmann et al.[^Bodenmann2022]" %}
 
 ## Summary
 coming soon ...
