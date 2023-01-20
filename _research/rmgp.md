@@ -34,6 +34,8 @@ The **fragility model** estimates the building damage as a result of a certain l
 
 The **loss model** computes system-wide losses as a result of the individual component damage states. For buildings, one could model the number of injured persons for each building as a function of its damage state and then compute the total number of injured persons by aggregating over all buildings. Similar computations may be done for direct financial losses (i.e., repair costs). 
 
+Several countries and states developed regional earthquake risk models: For Italy, Dolce et al.[^Dolce2021] introduce the relevant components.
+
 ## The post-earthquake situation
 
 In the immediate aftermath of an earthquake, it is imperative to use the early-arriving shaking intensity and building damage data as soon as possible to constrain the uncertainty of regional damage estimates and to organize recovery. Below, I explain the inference steps that use the ground motion intensity data measured by seismic networks, and the building damage and typological data obtained by inspection.
@@ -51,10 +53,10 @@ Typically, the inflicted damage is stated in terms of a certain damage category.
 
 While completing the entire inspection campaign may take weeks to months, our proposed framework dynamically ingests data from the first inspected buildings to deliver increasingly accurate and precise predictions. Specifically, we use the data to perform uptades in following two steps.
 
-Based on the damage data, we estimate an updated spatial distribution of ground-motion intensity measure (i.e., an updated shake map), while in parallel updating the fragility model. This is achieved via ordinal GP regression LINK and variational inference LINK.
+Based on the damage data, we estimate an updated spatial distribution of ground-motion intensity measure (i.e., an updated shake map), while in parallel updating the fragility model. This is achieved via ordinal GP regression[^Chu2005] and variational inference[^Opper2009].
 
 ## Case studies
-We tested the proposed framework in three case-studies (see figure below). I would to illustrate some key characteristics ... 
+We tested the proposed framework in three case-studies (see figure below).  
 
 ## Summary
 coming soon ...
