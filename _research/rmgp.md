@@ -57,8 +57,7 @@ Based on the damage data, we estimate an updated spatial distribution of ground-
 ## Case studies
 We tested the proposed framework in three case-studies: (a) a simulated earthquake event affecting Zurich (Switzerland), (b) the 1998 Pollino earthquake in Italy, and (c) the 2010 Kraljevo earthquake in Serbia. 
 
-{% include figure image_path="/assets/images/research/OverviewTotal.png" alt="schema_risk_model" caption="The three case-studies used to test the proposed framework." %}
-
+{% include figure image_path="/assets/images/research/OverviewTotal.png" alt="schema_risk_model" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively." %}
 
 
 ## Summary
