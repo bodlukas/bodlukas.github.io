@@ -46,7 +46,7 @@ Within minutes after the event, ground-motion recordings from a **seismic networ
 
 Then, first damage estimates are obtained by including the determined rupture characteristics and the constrained ground-motion estimates in the regional risk model.
 
-Within hours and days after the event, public agencies and volunteers start with **building inspection**. Through visual inspection, experts are asked to assess the building condition and whether a damaged building is safe enough to be re-occupied by its residents. 
+Within hours and days after the event, public agencies and volunteers start with **building inspection**. Through visual assessments, experts estimate the building condition. Based on this information, officials decide whether a damaged building is safe enough to be re-occupied by its residents, and public agencies and NGOs plan the response and recovery efforts.
 
 Typically, the inflicted damage is stated in terms of a certain damage category. Here we assume that those categories are consistent with the damage states employed in the fragility model of the risk model. Besides this damage description, experts also provide some basic building attributes that were not known prior to the event, e.g., the dominating material of the lateral load-resisting system and its type. 
 
@@ -65,7 +65,7 @@ We tested the proposed framework in three case-studies: (a) a simulated earthqua
 
 **Pollino**
 
-{% include figure image_path="/assets/images/research/Pollino_ShakeMap_Frag.png" alt="pollino_frag" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively." %}
+{% include figure image_path="/assets/images/research/Pollino_ShakeMapFrag.png" alt="pollino_frag" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively." %}
 
 **Comparison to random forest and linear regression**
 
