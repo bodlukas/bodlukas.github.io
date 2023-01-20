@@ -48,15 +48,18 @@ Then, first damage estimates are obtained by including the determined rupture ch
 
 Within hours and days after the event, public agencies and volunteers start with **building inspection**. Through visual inspection, experts are asked to assess the building condition and whether a damaged building is safe enough to be re-occupied by its residents. 
 
-Typically, the inflicted damage is stated in terms of a certain damage category. Here we assume that those categories are consistent with the damage states employed in the fragility model of the risk model. Besides this damage description, experts also provide some basic building attributes that were not known prior to the event, e.g., the dominating material of the lateral load-resisting system and its type LINK. 
-
+Typically, the inflicted damage is stated in terms of a certain damage category. Here we assume that those categories are consistent with the damage states employed in the fragility model of the risk model. Besides this damage description, experts also provide some basic building attributes that were not known prior to the event, e.g., the dominating material of the lateral load-resisting system and its type. 
 
 While completing the entire inspection campaign may take weeks to months, our proposed framework dynamically ingests data from the first inspected buildings to deliver increasingly accurate and precise predictions. Specifically, we use the data to perform uptades in following two steps.
 
 Based on the damage data, we estimate an updated spatial distribution of ground-motion intensity measure (i.e., an updated shake map), while in parallel updating the fragility model. This is achieved via ordinal GP regression[^Chu2005] and variational inference[^Opper2009].
 
 ## Case studies
-We tested the proposed framework in three case-studies (see figure below).  
+We tested the proposed framework in three case-studies: (a) a simulated earthquake event affecting Zurich (Switzerland), (b) the 1998 Pollino earthquake in Italy, and (c) the 2010 Kraljevo earthquake in Serbia. 
+
+{% include figure image_path="/assets/images/research/OverviewTotal.png" alt="schema_risk_model" caption="The three case-studies were the proposed framework was tested." %}
+
+
 
 ## Summary
 coming soon ...
