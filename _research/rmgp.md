@@ -55,9 +55,9 @@ While completing the entire inspection campaign may take weeks to months, our pr
 Based on the damage data, we estimate an updated spatial distribution of ground-motion intensity measure (i.e., an updated shake map), while in parallel updating the fragility model. This is achieved via ordinal GP regression[^Chu2005] and variational inference[^Opper2009].
 
 ## Case studies
-We tested the proposed framework in three case-studies: (a) a simulated earthquake event affecting Zurich (Switzerland), (b) the 1998 Pollino earthquake in Italy, and (c) the 2010 Kraljevo earthquake in Serbia. 
+We tested the proposed framework in three case-studies: (a) a simulated earthquake event affecting Zurich (Switzerland), (b) the 1998 Pollino earthquake in Italy, and (c) the 2010 Kraljevo earthquake in Serbia.  
 
-{% include figure image_path="/assets/images/research/OverviewTotal.png" alt="schema_risk_model" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from Bodenmann et al.[^Bodenmann2022]" %}
+{% include figure image_path="/assets/images/research/OverviewTotal.png" alt="schema_risk_model" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from [Bodenmann et al.](https://doi.org/10.31224/2205)" %}
 
 **Zurich**
 
@@ -65,14 +65,13 @@ We tested the proposed framework in three case-studies: (a) a simulated earthqua
 
 **Pollino**
 
-{% include figure image_path="/assets/images/research/Pollino_ShakeMapFrag.png" alt="pollino_frag" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from Bodenmann et al.[^Bodenmann2022]" %}
+{% include figure image_path="/assets/images/research/Pollino_ShakeMapFrag.png" alt="pollino_frag" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from [Bodenmann et al.](https://doi.org/10.31224/2205)" %}
 
 **Comparison to random forest and linear regression**
 
-{% include figure image_path="/assets/images/research/Fig6.png" alt="comparison_error" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from Bodenmann et al.[^Bodenmann2022]" %}
+{% include figure image_path="/assets/images/research/Fig6.png" alt="comparison_error" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from [Bodenmann et al.](https://doi.org/10.31224/2205)" %}
 
 ## Summary
 coming soon ...
-
 
 {% include references.md %}
