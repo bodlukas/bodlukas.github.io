@@ -4,7 +4,7 @@ permalink: /research/shakemapsim/
 author_profile: false
 comments: false
 layout: single
-date: 2023-19-02
+date: 2023-02-19
 ---
 
 ...
