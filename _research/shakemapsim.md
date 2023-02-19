@@ -26,11 +26,12 @@ The tool uses the [openquake engine](https://github.com/gem/oq-engine#openquake-
 
 The tool was developed by the research group of [Prof. Bozidar Stojadinovic](https://stojadinovic.ibk.ethz.ch/) at the Department of Civil, Environmental and Geomatic Engineering at ETH Zürich. 
 
-## Overview: Earthquake rupture and station information
+## Overview: Earthquake rupture and seismic network stations
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig1.png" alt="fault_turkeysyria" caption="Overview of the considered rupture and the seismic network stations with recorded values for Sa(1s). Both were retrieved from the USGS ShakeMap for the 2023 M7.8 Central Turkey event (version 12)." %}
 
 ## Maps of conditional ground-motion IM parameters
+
 
 
 ## Spatially correlated simulations of ground-motion IMs
