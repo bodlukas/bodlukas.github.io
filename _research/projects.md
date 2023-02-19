@@ -31,7 +31,7 @@ feature_row1:
     title: "ShakemapSim: Modelling conditional ground-motion amplitudes"
     excerpt: "Simulate spatially correlated ground-motions conditional on seismic network recordings"
     url: "/research/shakemapsim/"
-    btn_label: "coming soon"
+    btn_label: "Learn more"
     btn_class: "btn--primary"
     btn_size: "btn--small"
     
