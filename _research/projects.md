@@ -28,7 +28,7 @@ feature_row1:
     btn_size: "btn--small"
   - image_path: /assets/images/research/ShakemapSim.png
     alt: "shakemapsim"
-    title: "Hindcasting ground-motion amplitudes after an event"
+    title: "ShakemapSim: Modelling conditional ground-motion amplitudes"
     excerpt: "Simulate spatially correlated ground-motions conditional on seismic network recordings"
     url: "/research/shakemapsim/"
     btn_label: "coming soon"
