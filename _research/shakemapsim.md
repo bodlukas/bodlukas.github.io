@@ -25,7 +25,7 @@ where $\mu_{\ln \textit{IM}}(\cdot)$ is the predicted mean $\ln {\textit{IM}}$ v
 
 ### Spatial correlation models
 
-Conditional on rupture $rup_k$, the joint distribution of ground-motion IMs at $n$ spatially distributed sites $\mathbf{IM}_k=(\textit{IM}_{k1},\ldots,\textit{IM}_{kn})^\top$ is commonly assumed to be a multivariate lognormal distribution 
+Conditional on rupture $rup_k$, the joint distribution of ground-motion IMs at $n$ spatially distributed sites $\mathbf{IM}_k=\(\textit{IM}_{k1},\ldots,\textit{IM}_{kn}\)^\top$ is commonly assumed to be a multivariate lognormal distribution 
 
 $$ \ln{\mathbf{IM}_k} \sim \mathcal{N}(\boldsymbol{\mu},\tau^2 + \phi^2 \cdot \mathbf{C} )~, $$
 
