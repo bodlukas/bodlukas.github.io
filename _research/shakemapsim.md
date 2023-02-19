@@ -33,7 +33,7 @@ The tool was developed by the research group of [Prof. Bozidar Stojadinovic](htt
 
 ## Maps of conditional ground-motion IM parameters
 
-
+{% include figure image_path="/assets/images/research/ShakemapSim_fig2.png" alt="map_hatay" caption="Maps of median predicted Sa(1s) values (left) and corresponding logarithmic standard deviation (right) conditional on seismic network recordings. Triangles indicate seismic network stations." %}
 
 ## Spatially correlated simulations of ground-motion IMs
 
