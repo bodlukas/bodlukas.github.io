@@ -28,7 +28,7 @@ The tool was developed by the research group of [Prof. Bozidar Stojadinovic](htt
 
 ## Overview: Earthquake rupture and seismic network stations
 
-{% include figure image_path="/assets/images/research/ShakemapSim_fig1.png" alt="fault_turkeysyria" caption="Overview of the considered rupture (solid line), the hypocenter (star) and the seismic network stations (triangles) with recorded values for Sa(1s). All retrieved from the USGS ShakeMap for the 2023 M7.8 Central Turkey event (version 12). The shaded square indicates the region which will be analyzed in more detail in the next section." %}
+{% include figure image_path="/assets/images/research/ShakemapSim_fig1.png" alt="fault_turkeysyria" caption="Overview of the considered rupture (solid line), the hypocenter (star) and the seismic network stations (triangles) with recorded values for Sa(1s). All retrieved from the USGS ShakeMap for the 2023 M7.8 Central Turkey event (version 12). The region indicated with the shaded square will be the focus in the next section." %}
 
 ## Maps of conditional ground-motion IM parameters
 
