@@ -37,6 +37,7 @@ The tool was developed by the research group of [Prof. Bozidar Stojadinovic](htt
 
 ## Spatially correlated simulations of ground-motion IMs
 
+{% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="sim_hatay" caption="Two conditional spatially correlated samples of Sa(1s) at 2000 building sites in the city of Antakya. Triangles indicate seismic network stations." %}
 
 **Citation** <br /> Bodenmann, L., and Stojadinović, B. (2023): ShakemapSim: Simulate spatially correlated ground-motion intensity measures conditional on recordings (v1.1). <br /> <a class="btn btn--primary" href="https://doi.org/10.5281/zenodo.7646888"> <i class="fa fa-file-pdf fa-lg"></i> Zenodo </a> <a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--info}
