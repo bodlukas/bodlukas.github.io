@@ -22,11 +22,13 @@ If you use this tool in your work please please cite it as:
 3. specify sites at which we would like to predict ground-motion IMs,
 4. use **ShakemapSim** to predict and sample ground-motion IMs. 
 
-![Schema](https://github.com/bodlukas/ground-motion-simulation-shakemap/blob/main/data/ShakemapSim.png)
-
 The tool uses the [openquake engine](https://github.com/gem/oq-engine#openquake-engine) for geo-computations and implementations of ground-motion models. In the provided example we import rupture information and station data (including recorded IMs) from the [USGS shakemap system](https://earthquake.usgs.gov/data/shakemap/). 
 
 The tool was developed by the research group of [Prof. Bozidar Stojadinovic](https://stojadinovic.ibk.ethz.ch/) at the Department of Civil, Environmental and Geomatic Engineering at ETH Zürich. 
+
+{% include figure image_path="/assets/images/research/ShakemapSim_fig1.png" alt="fault_turkeysyria" caption="Overview of the considered rupture and the seismic network stations with recorded values for Sa(1s). Both were retrieved from the USGS ShakeMap for the 2023 M7.8 Central Turkey event (version 12)." %}
+
+
 
 ## Empirical models to simulate ground-motion IMs 
 
