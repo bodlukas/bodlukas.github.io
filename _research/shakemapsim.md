@@ -33,12 +33,10 @@ where $\boldsymbol{\mu}$ is the mean vector with entries derived from the mean f
 
 $$ [\mathbf{C}]_{ij}=\rho(site_i,site_j; \psi_{\mathtt{SCM}})~, $$
 
-where $\boldsymbol{\psi}_{\mathtt{SCM}}$ denotes the spatial correlation model (SCM) parameters. Commonly, these models are defined for a distance metric $d$ between two sites. Thus, we often denote the correlation model as $\rho(d; \boldsymbol{\psi}_{\mathtt{SCM}})$. The vast majority of SCMs proposed in the literature assume that correlation decreases exponentially with the Euclidean distance, $d_\mathrm{E}$, between two sites as
-$$
-\rho(d_\mathrm{E}; \psi_{\mathtt{SCM}})=\exp\left[- \left(\frac{d_\mathrm{E}}{\ell}\right)^\gamma\right]~,
-$$
+where $\psi_{\mathtt{SCM}}$ denotes the spatial correlation model (SCM) parameters. Commonly, these models are defined for a distance metric $d$ between two sites. Thus, we often denote the correlation model as $\rho(d; \psi_{\mathtt{SCM}})$. The vast majority of SCMs proposed in the literature assume that correlation decreases exponentially with the Euclidean distance, $d_\mathrm{E}$, between two sites as
+
+$$ \rho(d_\mathrm{E}; \psi_{\mathtt{SCM}})=\exp\left[- \left(\frac{d_\mathrm{E}}{\ell}\right)^\gamma\right]~, $$
+
 where parameters $\psi_{\mathtt{SCM}}=(\ell,\gamma)$, denote the lengthscale and the exponent, respectively. 
 
 Having computed the parameters of the multivariate normal distribution, sampling of $\ln im$ values is done by using methods implemented in other packages (such as `numpy`). 
-
-> **_Note:_** Currently we implemented following models: `EspositoIervolino2012esm`, `HeresiMiranda2019` and `BodenmannEtAl2023`. The first two models depend only on $d_\mathrm{E}$, while the last model additionally accounts for site and path effects, and thus also depends on the earthquake rupture. You find all references in the documentation of the [source files](modules/spatialcorrelation.py) which should also help you to easily add other SCMs.
