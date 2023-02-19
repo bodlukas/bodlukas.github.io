@@ -30,7 +30,7 @@ feature_row1:
     alt: "shakemapsim"
     title: "Hindcasting ground-motion amplitudes after an event"
     excerpt: "Simulate spatially correlated ground-motions conditional on seismic network recordings"
-    url: "/research/riskmeasure/"
+    url: "/research/shakemapsim/"
     btn_label: "coming soon"
     btn_class: "btn--primary"
     btn_size: "btn--small"
