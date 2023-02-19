@@ -26,7 +26,7 @@ feature_row1:
     btn_label: "coming soon"
     btn_class: "btn--primary"
     btn_size: "btn--small"
-  - image_path: /assets/images/research/ShakemapSim.png
+  - image_path: /assets/images/research/ShakemapSim_mini.png
     alt: "shakemapsim"
     title: "ShakemapSim: Modelling conditional ground-motion amplitudes"
     excerpt: "Simulate spatially correlated ground-motions conditional on seismic network recordings"
