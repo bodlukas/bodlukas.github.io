@@ -11,7 +11,9 @@ toc_icon: "bars"
 toc_sticky: true 
 ---
 
-ShakemapSim is a user-friendly tool to generate spatially correlated fields of ground-motion intensity measures (IMs) conditional on available recordings from a seismic network. This is particularly useful for validation and development of models for damage, loss and recovery predictions using data gathered after an event. 
+**ShakemapSim - A tool to generate spatially correlated fields of ground-motion intensity measures (IMs) conditional on available recordings from a seismic network.**
+
+This is particularly useful for validation and development of models for damage, loss and recovery predictions using data gathered after an event. 
 
 If you use this tool in your work please please cite it as:
 > Bodenmann, Lukas, and Stojadinović, Božidar. (2023). ShakemapSim: Simulate spatially correlated ground-motion intensity measures conditional on recordings (v1.0). Zenodo. https://doi.org/10.5281/zenodo.7646888
