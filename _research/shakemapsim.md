@@ -11,12 +11,11 @@ toc_icon: "bars"
 toc_sticky: true 
 ---
 
-**ShakemapSim - A tool to generate spatially correlated fields of ground-motion intensity measures (IMs) conditional on available recordings from a seismic network.**
+**ShakemapSim** - A tool to generate spatially correlated fields of ground-motion intensity measures (IMs) conditional on available recordings from a seismic network.
+
+<a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> repository</a>
 
 This is particularly useful for validation and development of models for damage, loss and recovery predictions using data gathered after an event. 
-
-If you use this tool in your work please please cite it as:
-> Bodenmann, Lukas, and Stojadinović, Božidar. (2023). ShakemapSim: Simulate spatially correlated ground-motion intensity measures conditional on recordings (v1.0). Zenodo. https://doi.org/10.5281/zenodo.7646888
 
 **Quick start** Open the notebook [ShakemapSim_Example.ipynb](ShakemapSim_Example.ipynb) on a hosted Jupyter notebook service (e.g., Google Colab). It does not require any local python setup and you can immediately start to customize the models and perform the computations yourself. It explains how to: 
 1. import earthquake rupture information and recorded ground-motion IMs,
@@ -38,3 +37,6 @@ The tool was developed by the research group of [Prof. Bozidar Stojadinovic](htt
 
 ## Spatially correlated simulations of ground-motion IMs
 
+
+**Citation** <br /> Bodenmann, L., and Stojadinović, B. (2023): ShakemapSim: Simulate spatially correlated ground-motion intensity measures conditional on recordings (v1.1). <br /> <a class="btn btn--primary" href="https://doi.org/10.5281/zenodo.7646888"> <i class="fa fa-file-pdf fa-lg"></i> Zenodo </a> <a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
+{: .notice--info}
