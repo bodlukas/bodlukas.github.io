@@ -26,7 +26,7 @@ feature_row1:
     btn_label: "coming soon"
     btn_class: "btn--primary"
     btn_size: "btn--small"
-  - image_path: /assets/images/research/comingsoon.png
+  - image_path: /assets/images/research/ShakemapSim.png
     alt: "shakemapsim"
     title: "Hindcasting ground-motion amplitudes after an event"
     excerpt: "Simulate spatially correlated ground-motions conditional on seismic network recordings"
