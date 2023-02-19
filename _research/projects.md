@@ -27,9 +27,9 @@ feature_row1:
     btn_class: "btn--primary"
     btn_size: "btn--small"
   - image_path: /assets/images/research/comingsoon.png
-    alt: "riskmeasure"
-    title: "From building-specific to regional seismic risk and back"
-    excerpt: "Use subadditive risk measures to establish an upper-bound relation between building-specific and regional seismic risk"
+    alt: "shakemapsim"
+    title: "Hindcasting ground-motion amplitudes after an event"
+    excerpt: "Simulate spatially correlated ground-motions conditional on seismic network recordings"
     url: "/research/riskmeasure/"
     btn_label: "coming soon"
     btn_class: "btn--primary"
