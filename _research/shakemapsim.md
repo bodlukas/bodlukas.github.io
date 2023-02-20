@@ -84,9 +84,9 @@ The following maps show the parameters of the predicted lognormal distribution (
 For two sites, we plot the corresponding marginal logarithmic pdf. 
 
 | Distances to three closest stations in km | | | |
-| :---        |    ---:   |    ---:   |    ---:   |
-| Site 1 | 7.7km | 10.1km | 10.3km |
-| Site 2 | 0.8km | 1.1km | 1.8km |
+|  ---:        |    ---:   |    ---:   |    ---:   |
+| Site 1 | 7.7 | 10.1 | 10.3 |
+| Site 2 | 0.8 | 1.1 | 1.8 |
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="pdf_hatay" caption="Probability density function of Sa(1s) at two sites conditional on seismic network recordings." %}
 
