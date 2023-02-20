@@ -81,14 +81,14 @@ The following maps show the parameters of the predicted lognormal distribution (
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig2a.png" alt="map_hatay" caption="Maps of median predicted Sa(1s) values (left) and corresponding logarithmic standard deviation (right) conditional on seismic network recordings. Triangles indicate seismic network stations. The region indicated with the shaded square in the right panel will be the focus in the next section. The two sites indicated in the right panel are plotted in the figure below." %}
 
-To examine the remaining uncertainties that are involved in IMs at sites that are close to seismic network stations we focus on the two sites indicated in the right panel of the above figure. The table below indicates the distances in km from each site to the three closest network stations. 
+To examine the remaining uncertainties that are involved in IMs at sites that are close to seismic network stations we focus on the two sites indicated in the right panel of the above figure. 
 
-| | | | |
+| Distances to three closest stations in km | 1 | 2| 3|
 |  :---        |    ---:   |    ---:   |    ---:   |
 | Site 1 | 7.7 | 10.1 | 10.3 |
 | Site 2 | 0.8 | 1.1 | 1.8 |
 
-The figure below plots the conditional marginal probability density functions obtained from ShakemapSim at the two sites. It highlights the substantial remaining uncertainty event at site 2 located very close to three network stations.
+The figure below plots the conditional marginal probability density functions obtained from ShakemapSim at the two sites. It highlights the substantial remaining uncertainty in IMs at the two sites. In particular this also holds true for site 2 which is located very close to three network stations.
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="pdf_hatay" caption="Probability density function of Sa(1s) at two sites conditional on seismic network recordings." %}
 
