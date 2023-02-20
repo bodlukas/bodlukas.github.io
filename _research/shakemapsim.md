@@ -1,5 +1,5 @@
 ---
-title: "Hindcasting ground-motion amplitudes after an event"
+title: "ShakemapSim: Modelling conditional ground-motion intensity measures"
 permalink: /research/shakemapsim/
 author_profile: false
 comments: false
@@ -11,11 +11,15 @@ toc_icon: "bars"
 toc_sticky: true 
 ---
 
-**ShakemapSim** - A tool to generate spatially correlated fields of ground-motion intensity measures (IMs) conditional on available recordings from a seismic network.
+|------|
+|<a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> code</a>|
 
-<a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> repository</a>
+**ShakemapSim** is a tool generate spatially correlated fields of ground-motion intensity measures (IMs) conditional on available recordings from a seismic network. This enables regional post-earthquake loss assessments and is particularly useful for validation and development of models for damage, loss and recovery predictions using data gathered after an event. The tool comes with rich documentation, is easily customizable and can be run on hosted Jupyter notebook services (i.e., Google Colab). 
 
-This is particularly useful for validation and development of models for damage, loss and recovery predictions using data gathered after an event. 
+
+
+The tool uses the [openquake engine](https://github.com/gem/oq-engine#openquake-engine) for geo-computations and implementations of ground-motion models. In the provided example we import rupture information and station data (including recorded IMs) from the [USGS shakemap system](https://earthquake.usgs.gov/data/shakemap/). 
+
 
 **Quick start** Open the notebook [ShakemapSim_Example.ipynb](ShakemapSim_Example.ipynb) on a hosted Jupyter notebook service (e.g., Google Colab). It does not require any local python setup and you can immediately start to customize the models and perform the computations yourself. It explains how to: 
 1. import earthquake rupture information and recorded ground-motion IMs,
@@ -23,7 +27,6 @@ This is particularly useful for validation and development of models for damage,
 3. specify sites at which we would like to predict ground-motion IMs,
 4. use **ShakemapSim** to predict and sample ground-motion IMs. 
 
-The tool uses the [openquake engine](https://github.com/gem/oq-engine#openquake-engine) for geo-computations and implementations of ground-motion models. In the provided example we import rupture information and station data (including recorded IMs) from the [USGS shakemap system](https://earthquake.usgs.gov/data/shakemap/). 
 
 The tool was developed by the research group of [Prof. Bozidar Stojadinovic](https://stojadinovic.ibk.ethz.ch/) at the Department of Civil, Environmental and Geomatic Engineering at ETH Zürich. 
 
