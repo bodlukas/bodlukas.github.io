@@ -98,13 +98,11 @@ Next we generate two spatially correlated samples of IMs conditional on recorded
 ```python
 sampled_logIM = shakemap.sample_logIM(sites, nsamples = 2)
 ```
-The two samples are shown in the below figure. Note that the building sites are distributed over a very small area (...x... km), and that four seismic network stations are located within or close to this area. Despite these facts, the two samples are quiet different at many sites throughout the area. This is further examined below.
+Such samples (as shown in the figure below) are a starting point for many regional damage, loss and recovery studies. Note that the building sites are distributed over a very small area (...x... km), and that four seismic network stations are located within or close to this area. Despite these facts, the two samples are quiet different at many sites throughout the area. This is further examined below.
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="sim_hatay" caption="Two spatially correlated samples of Sa(1s) at 2000 building sites in the city of Antakya conditional on recordings from seismic network stations (triangles)." %}
 
-For regional damage, loss and recovery studies, it is of interest to statistically estimate the number of building sites where the IM of interest exceeded a given threshold.
-
-For the same 2000 building sites, we will now compute the probability distribution of the proportion of sites where the IM of interest exceeded a certain threshold. 
+For the same 2000 building sites, we will now statistically estimate the probability distribution of the proportion of building sites where Sa(1s) exceeded a certain threshold. 
 
 First, we sample a large number (10000 in this example) of ground-motion fields (like those in the figure above). Then, for each sample, we count the number of sites where the IM of interest threshold was exceeded and divide by the total number of sites to get the proportion of sites. 
 
