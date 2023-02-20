@@ -12,7 +12,7 @@ toc_sticky: true
 ---
 
 |------||------|
-|<a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> code</a>|<a class="btn btn--primary" href="https://doi.org/10.5281/zenodo.7646888"> <i class="fa fa-link fa-lg"></i> doi: 10.5281/zenodo.7646888 </a>|
+|<a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> code</a>|<a class="btn btn--primary" href="https://doi.org/10.5281/zenodo.7646888"> <i class="fa fa-link fa-lg"></i> Zenodo doi </a>|
 
 **ShakemapSim** is a tool generate spatially correlated fields of ground-motion intensity measures (IMs) conditional on available recordings from a seismic network. This enables regional post-earthquake loss assessments and is particularly useful for validation and development of models for damage, loss and recovery predictions using data gathered after an event. The tool comes with rich documentation, is easily customizable and can be run on hosted Jupyter notebook services (i.e., Google Colab). 
 
@@ -29,15 +29,28 @@ Within days after the event, people posted on social media that at some seismic 
 
 There are at least two reasons why I think the above conclusions are premature and do not serve as an adequate explanation: First, modern building codes (such as the one in Turkey) embrace the philopophy of ductile design. Thus, the collapse of a code-compliant building is very unlikely even if the design spectra was exceeded. Second, the recorded ground-motion spectrum is only represenatative of a building located directly above the seismic network station. As pointed out by Peter Stafford in the aftermath of the 2011 Christchurch (New Zealand) earthquake, the ground-shaking experienced by other buildings is still highly uncertain, even if the buildings are located close to the seismic network station.
 
-The ShakemapSim tool specifically adresses the second aspect mentioned above: It allows users to compute the probability distribution of ground-motion IMs at specified sites by taking into account recorded IM values at seismic network stations. 
+The ShakemapSim tool adresses the second aspect mentioned above: It allows users to compute the probability distribution of ground-motion IMs at specified building locations by taking into account recorded IM values at seismic network stations. Conducting, validating and developing regional post-earthuquake loss assessments requires correlated samples of ground-motion IMs at spatially distributed locations. These samples should be representative of the remaining uncertainty in ground-motions after accounting for recorded IM values. The following example illustrates the capabilities of ShakemapSim.
 
 ## Example
 
-**Quick start** Open the notebook [ShakemapSim_Example.ipynb](ShakemapSim_Example.ipynb) on a hosted Jupyter notebook service (e.g., Google Colab). It does not require any local python setup and you can immediately start to customize the models and perform the computations yourself. It explains how to: 
-1. import earthquake rupture information and recorded ground-motion IMs,
-2. specify (and customize) which ground-motion models and spatial correlation models are used to compute the shakemap,
-3. specify sites at which we would like to predict ground-motion IMs,
-4. use **ShakemapSim** to predict and sample ground-motion IMs. 
+The following example illustrates the capabilities of ShakemapSim in producing maps of conditional ground-motion IM parameters and developing ... 
+
+Specify the ground-motion model
+
+```python
+from modules.shakemap import GMM
+from openquake.hazardlib.gsim.cauzzi_2014 import CauzziEtAl2014()
+gmm = GMM(CauzziEtAl2014(), 'SA(1.0)')
+```
+
+Specify the spatial correlation model
+
+```python
+from modules.spatialcorrelation import HeresiMiranda2019
+scm = HeresiMiranda2019('SA(1.0)')
+```
+
+
 
 ### Maps of conditional ground-motion IM parameters
 
