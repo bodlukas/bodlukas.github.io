@@ -38,16 +38,36 @@ The following example illustrates the capabilities of ShakemapSim in producing m
 Specify the ground-motion model
 
 ```python
-from modules.shakemap import GMM
-from openquake.hazardlib.gsim.cauzzi_2014 import CauzziEtAl2014()
-gmm = GMM(CauzziEtAl2014(), 'SA(1.0)')
+# 1) Specify IM of interest
+im_string = 'SA(1.0)'
+
+# 2) Specify ground-motion model (GMM)
+gmm = GMM(CauzziEtAl2014(), im_string)
+
+# 3) Specify spatial correlation model (SCM)
+scm = HeresiMiranda2019(im_string)
+
+# 4) Wrap seismic network stations
+stations = Stations(dfstations, im_string)
+
+# 5) Assemble shakemap object
+shakemap = Shakemap(Rupture = rupture, 
+                    Stations = stations,
+                    GMM = gmm,
+                    SCM = scm)
 ```
 
-Specify the spatial correlation model
+To predict the probability distribution of ground-motion IMs at specified building locations conditional recorded IM values we would simply proceed as:
 
 ```python
-from modules.spatialcorrelation import HeresiMiranda2019
-scm = HeresiMiranda2019('SA(1.0)')
+# 1) Specify sites (lon, lat in degrees; vs30 in m/s)
+dfsites = pd.DataFrame(data={'longitude': [36.51, 36.62], 
+                             'latitude': [37.01, 37.10],
+                             'vs30': [210, 500]})
+sites = Sites(dfsites)
+
+# 2) Predict
+mu, var = shakemap.predict_logIM(sites)
 ```
 
 
