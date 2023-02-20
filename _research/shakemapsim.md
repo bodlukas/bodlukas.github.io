@@ -102,3 +102,5 @@ For the same 2000 building sites, we will now compute the probability distributi
 
 **Citation** <br /> Bodenmann, L., and Stojadinović, B. (2023): ShakemapSim: Simulate spatially correlated ground-motion intensity measures conditional on recordings (v1.1). <br /> <a class="btn btn--primary" href="https://doi.org/10.5281/zenodo.7646888"> <i class="fa fa-file-link fa-lg"></i> doi: 10.5281/zenodo.7646888 </a> <a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--info}
+
+**References**
