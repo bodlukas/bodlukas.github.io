@@ -27,9 +27,13 @@ In February 2023, a strong M7.8 earthquake occurred at the border of Turkey and 
 
 Within days after the event, people posted on social media that at some seismic network stations the recorded ground-motion spectrum exceeded the design spectrum (from the building code) by a factor of two or more. Thus, suggesting that the observed collapses of new buildings may be attributed to poor building code prescriptions. But is that true?
 
-There are at least two reasons why I think the above conclusions are premature and do not serve as an adequate explanation: First, modern building codes (such as the one in Turkey) embrace the philopophy of ductile design. Thus, the collapse of a code-compliant building is very unlikely even if the design spectra was exceeded. Second, the recorded ground-motion spectrum is only represenatative of a building located directly above the seismic network station. As pointed out by Peter Stafford in the aftermath of the 2011 Christchurch (New Zealand) earthquake, the ground-shaking experienced by other buildings is still highly uncertain, even if the buildings are located close to the seismic network station.
+There are at least two reasons why I think the above conclusions are premature and do not serve as an adequate explanation: 
+- First, modern building codes (such as the one in Turkey) embrace the philopophy of ductile design. Thus, the collapse of a code-compliant building is very unlikely even if the design spectra was exceeded. 
+- Second, the recorded ground-motion spectrum is only represenatative of a building located directly above the seismic network station. As pointed out by Peter Stafford in the aftermath of the 2011 Christchurch (New Zealand) earthquake, the ground-shaking experienced by other buildings is still highly uncertain, even if the buildings are located close to the seismic network station.
 
-The ShakemapSim tool adresses the second aspect mentioned above: It allows users to compute the probability distribution of ground-motion IMs at specified building locations by taking into account recorded IM values at seismic network stations. Conducting, validating and developing regional post-earthuquake loss assessments requires correlated samples of ground-motion IMs at spatially distributed locations. These samples should be representative of the remaining uncertainty in ground-motions after accounting for recorded IM values. The following example illustrates the capabilities of ShakemapSim.
+The ShakemapSim tool adresses the second aspect mentioned above: It allows users to compute the probability distribution of ground-motion IMs at specified building locations by taking into account recorded IM values at seismic network stations. 
+
+Conducting, validating and developing regional post-earthuquake loss assessments requires correlated samples of ground-motion IMs at spatially distributed locations. These samples should be representative of the remaining uncertainty in ground-motions after accounting for recorded IM values. The following example illustrates the capabilities of ShakemapSim.
 
 ## Example
 
@@ -67,12 +71,9 @@ dfsites = pd.DataFrame(data={'longitude': [36.51, 36.62],
 sites = Sites(dfsites)
 ```
 
-
-
 ### Maps of conditional ground-motion IM parameters
 
 One line of code is enough to predict the probability distribution of ground-motion IMs conditional recorded IM values at specified sites.  
-
 ```python
 mu, var = shakemap.predict_logIM(sites)
 ```
@@ -80,7 +81,14 @@ The following maps show the parameters of the predicted lognormal distribution (
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig2.png" alt="map_hatay" caption="Maps of median predicted Sa(1s) values (left) and corresponding logarithmic standard deviation (right) conditional on seismic network recordings. Triangles indicate seismic network stations." %}
 
+For two sites, we plot the corresponding marginal logarithmic pdf. 
+
 ### Spatially correlated simulations of ground-motion IMs
+
+Next we generate two spatially correlated samples of IMs conditional on recorded IM values at locations of 2000 buildings in the city of Antakya (Hatay, Turkey) using following line of code:
+```python
+sampled_logIM = shakemap.sample_logIM(sites, nsamples = 2)
+```
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="sim_hatay" caption="Two spatially correlated samples of Sa(1s) at 2000 building sites in the city of Antakya conditional on recordings from seismic network stations (triangles)." %}
 
