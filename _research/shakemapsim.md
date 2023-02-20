@@ -28,12 +28,12 @@ In February 2023, a strong M7.8 earthquake occurred at the border of Turkey and 
 Within days after the event, people posted on social media that at some seismic network stations the recorded ground-motion spectrum exceeded the design spectrum (from the building code) by a factor of two or more. Thus, suggesting that the observed collapses of new buildings may be attributed to poor building code prescriptions. But is that true?
 
 There are at least two reasons why I think the above conclusions are premature and do not serve as an adequate explanation: 
-- First, modern building codes (such as the one in Turkey) embrace the philopophy of ductile design. Thus, the collapse of a code-compliant building is very unlikely even if the design spectra was exceeded. 
-- Second, the recorded ground-motion spectrum is only represenatative of a building located directly above the seismic network station. The ground-shaking experienced by other buildings is still highly uncertain, even if the buildings are located close to a seismic network station. This was also pointed out by Peter Stafford after the 2011 Christchurch (New Zealand) earthquake[^Stafford2012].
+- First, modern building codes (such as the one in Turkey) embrace the philosophy of ductile design. Thus, the collapse of a code-compliant building is very unlikely even if the design spectra was exceeded. 
+- Second, the recorded ground-motion spectrum is only representative of a building located directly above the seismic network station. The ground-shaking experienced by other buildings is still highly uncertain, even if the buildings are located close to a seismic network station. This was also pointed out by Peter Stafford after the 2011 Christchurch (New Zealand) earthquake[^Stafford2012].
 
-The ShakemapSim tool adresses the second aspect mentioned above: It allows users to compute the probability distribution of ground-motion IMs at specified building locations by taking into account recorded IM values at seismic network stations. 
+The ShakemapSim tool addresses the second aspect mentioned above: It allows users to compute the probability distribution of ground-motion IMs at specified building locations by taking into account recorded IM values at seismic network stations. 
 
-Conducting, validating and developing regional post-earthuquake loss assessments requires correlated samples of ground-motion IMs at spatially distributed locations. These samples should be representative of the remaining uncertainty in ground-motions after accounting for recorded IM values. The following example illustrates the capabilities of ShakemapSim.
+Conducting, validating and developing regional post-earthquake loss assessments requires correlated samples of ground-motion IMs at spatially distributed locations. These samples should be representative of the remaining uncertainty in ground-motions after accounting for recorded IM values. The following example illustrates the capabilities of ShakemapSim.
 
 ## Example
 
