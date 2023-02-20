@@ -25,15 +25,15 @@ I developed the tool as part of my PhD in the research group of [Professor Stoja
 ## Motivation
 In February 2023, a strong M7.8 earthquake occurred at the border of Turkey and Syria resulting in the collapse of thousands of buildings with (too) many people that suffered from tragic losses. In the aftermath of such devastating events, people raise questions whether buildings were adequately designed and, even more, whether building code prescriptions for new constructions are sufficient.
 
-Within days after the event, people posted on social media that at some seismic network stations the recorded ground-motion spectrum exceeded the design spectrum (from the building code) by a factor of two or more. Thus, suggesting that the observed collapses of new buildings may be attributed to poor building code prescriptions. But is that true?
+Within days after the event, people posted on social media that at some seismic network stations the recorded ground-motion spectrum exceeded the building code design spectrum by a factor of two or more. Thus, suggesting that the observed collapses of new buildings may be attributed to poor building code prescriptions. But is that true?
 
 There are at least two reasons why I think the above conclusions are premature and do not serve as an adequate explanation: 
-- First, modern building codes (such as the one in Turkey) embrace the philosophy of ductile design. Thus, the collapse of a code-compliant building is very unlikely even if the design spectra was exceeded. 
-- Second, the recorded ground-motion spectrum is only representative of a building located directly above the seismic network station. The ground-shaking experienced by other buildings is still highly uncertain, even if the buildings are located close to a seismic network station. This was also pointed out by Peter Stafford after the 2011 Christchurch (New Zealand) earthquake[^Stafford2012].
+1. Modern building codes (such as the one in Turkey) embrace the philosophy of ductile design. Thus, the collapse of a code-compliant building is very unlikely even if the design spectra was exceeded. 
+2. The recorded ground-motion spectrum is only representative of a building located directly above the seismic network station. The ground-shaking experienced by other buildings is still uncertain, even if the buildings are located close to a seismic network station. This was also pointed out by Peter Stafford after the 2011 Christchurch (New Zealand) earthquake[^Stafford2012].
 
 The ShakemapSim tool addresses the second aspect mentioned above: It allows users to compute the probability distribution of ground-motion IMs at specified building locations by taking into account recorded IM values at seismic network stations. 
 
-Conducting, validating and developing regional post-earthquake loss assessments requires correlated samples of ground-motion IMs at spatially distributed locations. These samples should be representative of the remaining uncertainty in ground-motions after accounting for recorded IM values. The following example illustrates the capabilities of ShakemapSim.
+Conducting, validating and developing regional post-earthquake loss assessments requires correlated samples of ground-motion IMs at spatially distributed locations. These samples should be representative of the remaining uncertainty in ground-motions after accounting for recorded IM values. 
 
 ## Example
 
