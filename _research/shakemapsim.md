@@ -82,6 +82,9 @@ The following maps show the parameters of the predicted lognormal distribution (
 {% include figure image_path="/assets/images/research/ShakemapSim_fig2a.png" alt="map_hatay" caption="Maps of median predicted Sa(1s) values (left) and corresponding logarithmic standard deviation (right) conditional on seismic network recordings. Triangles indicate seismic network stations. The region indicated with the shaded square in the right panel will be the focus in the next section. The two sites indicated in the right panel are plotted in the figure below." %}
 
 For two sites, we plot the corresponding marginal logarithmic pdf. 
+|------||------||------||------|
+|Distances to three closest stations for site 1||...||...||...|
+|Distances to three closest stations for site 2||...||...||...|
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="map_hatay" caption="Maps of median predicted Sa(1s) values (left) and corresponding logarithmic standard deviation (right) conditional on seismic network recordings. Triangles indicate seismic network stations." %}
 
