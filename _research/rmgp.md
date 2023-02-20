@@ -71,7 +71,7 @@ As outlined above, RMGP leverages inspection data not only to constrain the dist
 
 Compared to the Zurich case study, the Pollino region is almost ten times larger and has a sparse seismic network, which results in larger heterogeneity of the inferred median PGAs as shown in the top row of the figure below.
 
-{% include figure image_path="/assets/images/research/Pollino_ShakeMapFrag.png" alt="pollino_frag" caption="For increasing amounts of inspection data the top row shows the posterior predictive median PGA, while the bottom row shows the initial and updated vulnerability functions for one building type. Figure from [Bodenmann et al.](https://doi.org/10.31224/2205)" %}
+{% include figure image_path="/assets/images/research/Pollino_ShakeMapFrag.png" alt="pollino_frag" caption="For increasing amounts of inspection data the top row shows the posterior predictive median PGA, while the bottom row shows the initial and updated fragility functions for one building type. Figure from [Bodenmann et al.](https://doi.org/10.31224/2205)" %}
 
 **Comparison to random forest and linear regression**
 
@@ -88,6 +88,17 @@ The first, simulated, Zurich case study shows that despite a relatively dense se
 This is also confirmed in the case of Pollino, where the initial risk-model predictions are more accurate despite the less dense seismic network. While the numbers of inspected buildings at each time step are similar in Zurich and Pollino case studies, we used substantially less inspection data in the case of Kraljevo. The first time step is limited to 40 inspected buildings, which translates to a larger span in CJPEs from different inspection sequences. 
 
 ## Summary
-coming soon ...
+RMGP is a dynamic updating framework for regional post-earthquake damage estimation that leverages early-arriving observations of ground motion intensity and building damage using Gaussian processes and variational inference. The framework updates the ground motion intensity, building type attribution and fragility model components of a regional earthquake risk model that is established prior to the event. 
+
+Based on the three case studies we conclude that:
+- RMGP framework provides a powerful tool to combine inspection evidence with prior estimates of traditional risk models, thus enabling precise and accurate predictions of earthquake-inflicted impacts on residential buildings in a fraction of the time required to inspect the entire building stock.
+- RMGP requires less data compared to the purely data-driven machine-learning approaches, such as random forest models, to provide these estimates.
+
+These results highlight the potential of RMGP for operational use after future earthquakes. Yet there are some caveats.
+
+**Caveats and opportunities for further research**
+- An operational use of RMGP requires close collaboration between risk modellers and agencies responsible for planning the inspection process. Future work may involve understanding the effect of different inspection prioritization schemes on the updated predictions, especially in presence of possibly biased inspections, and could further include an active-learning based strategy that optimizes information gain for the RMGP framework.
+- It should be noted that the RFs, used for comparison in this paper, are taken from post-earthquake damage prediction literature. Considering the rapid evolution of machine-learning tools, better RF models or models based on other approaches, such as neural networks, may outperform the herein adopted versions of data-driven models.
+- While this study focuses on conventional post-earthquake data sources (e.g., seismic network stations and building inspections), there are numerous other data sources which provide helpful and important information for post-earthquake response. Satellite and aerial imagery, for example, offer high coverage information that could potentially be combined with the proposed RMGP framework to an ensemble model delivering improved quantitative damage estimates.
 
 {% include references.md %}
