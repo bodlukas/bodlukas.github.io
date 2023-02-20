@@ -98,7 +98,7 @@ For the same 2000 building sites, we will now compute the probability distributi
 
 ... 
 
-> **_Note:_** These findings are for the selected region, for the IM SA(1s), an IM threshold of 0.75g, as well as for one specific ground-motion model and one specific spatial correlation model. Feel free to re-run the code (in the repository) using the different implemented models (or implement your own models), and vary the region, IM and IM threshold values. 
+> **_Note:_** These findings are for the selected region, for the IM SA(1s), an IM threshold of 0.75g, as well as for one specific ground-motion model and one specific spatial correlation model. Feel free to re-run the [code](https://github.com/bodlukas/ground-motion-simulation-shakemap) using the different implemented models (or implement your own models), and vary the region, IM and IM threshold values. 
 
 **Citation** <br /> Bodenmann, L., and Stojadinović, B. (2023): ShakemapSim: Simulate spatially correlated ground-motion intensity measures conditional on recordings (v1.1). <br /> <a class="btn btn--primary" href="https://doi.org/10.5281/zenodo.7646888"> <i class="fa fa-file-link fa-lg"></i> doi: 10.5281/zenodo.7646888 </a> <a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--info}
