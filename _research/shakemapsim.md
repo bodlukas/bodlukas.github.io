@@ -33,9 +33,9 @@ The ShakemapSim tool adresses the second aspect mentioned above: It allows users
 
 ## Example
 
-The following example illustrates the capabilities of ShakemapSim in producing maps of conditional ground-motion IM parameters and developing ... 
+The following example illustrates the capabilities of ShakemapSim in producing maps of conditional ground-motion IM parameters and generating correlated samples at specified building sites. 
 
-Specify the ground-motion model
+The code snippet below shows how to specify and assemble the different model components. 
 
 ```python
 # 1) Specify IM of interest
@@ -45,7 +45,7 @@ im_string = 'SA(1.0)'
 gmm = GMM(CauzziEtAl2014(), im_string)
 
 # 3) Specify spatial correlation model (SCM)
-scm = HeresiMiranda2019(im_string)
+scm = EspositoIervolino2012esm(im_string)
 
 # 4) Wrap seismic network stations
 stations = Stations(dfstations, im_string)
@@ -57,22 +57,26 @@ shakemap = Shakemap(Rupture = rupture,
                     SCM = scm)
 ```
 
-To predict the probability distribution of ground-motion IMs at specified building locations conditional recorded IM values we would simply proceed as:
+The specification of building sites for which we would like to conduct predictions and/or sampling is straightforward.
 
 ```python
-# 1) Specify sites (lon, lat in degrees; vs30 in m/s)
+# Specify sites (lon, lat in degrees; vs30 in m/s)
 dfsites = pd.DataFrame(data={'longitude': [36.51, 36.62], 
                              'latitude': [37.01, 37.10],
                              'vs30': [210, 500]})
 sites = Sites(dfsites)
-
-# 2) Predict
-mu, var = shakemap.predict_logIM(sites)
 ```
 
 
 
 ### Maps of conditional ground-motion IM parameters
+
+One line of code is enough to predict the probability distribution of ground-motion IMs conditional recorded IM values at specified sites.  
+
+```python
+mu, var = shakemap.predict_logIM(sites)
+```
+The following maps show the parameters of the predicted lognormal distribution (left: median, right: standard deviation) at a longitude/latitude grid in the Turkish region of Hatay. 
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig2.png" alt="map_hatay" caption="Maps of median predicted Sa(1s) values (left) and corresponding logarithmic standard deviation (right) conditional on seismic network recordings. Triangles indicate seismic network stations." %}
 
