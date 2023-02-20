@@ -83,7 +83,7 @@ The following maps show the parameters of the predicted lognormal distribution (
 
 For two sites, we plot the corresponding marginal logarithmic pdf. 
 
-### Spatially correlated simulations of ground-motion IMs
+### Spatially correlated samples of ground-motion IMs
 
 Next we generate two spatially correlated samples of IMs conditional on recorded IM values at locations of 2000 buildings in the city of Antakya (Hatay, Turkey) using following line of code:
 ```python
