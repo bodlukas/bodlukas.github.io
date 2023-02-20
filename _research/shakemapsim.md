@@ -29,7 +29,7 @@ Within days after the event, people posted on social media that at some seismic 
 
 There are at least two reasons why I think the above conclusions are premature and do not serve as an adequate explanation: 
 - First, modern building codes (such as the one in Turkey) embrace the philopophy of ductile design. Thus, the collapse of a code-compliant building is very unlikely even if the design spectra was exceeded. 
-- Second, the recorded ground-motion spectrum is only represenatative of a building located directly above the seismic network station. As pointed out by Peter Stafford in the aftermath of the 2011 Christchurch (New Zealand) earthquake, the ground-shaking experienced by other buildings is still highly uncertain, even if the buildings are located close to the seismic network station.
+- Second, the recorded ground-motion spectrum is only represenatative of a building located directly above the seismic network station. The ground-shaking experienced by other buildings is still highly uncertain, even if the buildings are located close to a seismic network station. This was already pointed out by Peter Stafford in the aftermath of the 2011 Christchurch (New Zealand) earthquake[^Stafford2012].
 
 The ShakemapSim tool adresses the second aspect mentioned above: It allows users to compute the probability distribution of ground-motion IMs at specified building locations by taking into account recorded IM values at seismic network stations. 
 
