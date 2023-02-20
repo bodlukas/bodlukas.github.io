@@ -55,17 +55,19 @@ While completing the entire inspection campaign may take weeks to months, our pr
 Based on the damage data, we estimate an updated spatial distribution of ground-motion intensity measure (i.e., an updated shake map), while in parallel updating the fragility model. This is achieved via ordinal GP regression[^Chu2005] and variational inference[^Opper2009].
 
 ## Case studies
-We tested the proposed framework in three case-studies: (a) a simulated earthquake event affecting Zurich (Switzerland), (b) the 1998 Pollino earthquake in Italy, and (c) the 2010 Kraljevo earthquake in Serbia.  
+We tested the proposed framework in three case-studies: (a) a simulated earthquake event affecting Zurich (Switzerland), (b) the 1998 Pollino earthquake in Italy, and (c) the 2010 Kraljevo earthquake in Serbia. 
 
-{% include figure image_path="/assets/images/research/OverviewTotal.png" alt="schema_risk_model" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from [Bodenmann et al.](https://doi.org/10.31224/2205)" %}
+{% include figure image_path="/assets/images/research/OverviewTotal.png" alt="overview_case_studies" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from [Bodenmann et al.](https://doi.org/10.31224/2205)" %}
 
 **Zurich**
+The simulated case study is used to analyze the performance of the proposed RMGP framework in updating the random field of intensity measures, which in this case is expressed as peak ground acceleration. The uncertainty at specific locations is reduced, especially when buildings in the vicinity of the location get inspected, as evidenced by the uncertainty reduction after 175 inspections for locations S1 and S2. The variance at location S3 is reduced only after 525 buildings are inspected, some of which close to the location S3.
 
-{% include figure image_path="/assets/images/research/Fig7.png" alt="zurich_sm" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from Bodenmann et al.[^Bodenmann2022]" %}
+{% include figure image_path="/assets/images/research/Fig7.png" alt="zurich_sm" caption="Inferred estimates of peak ground acceleration (PGA). The top row (a-c) shows maps of the median PGA inferred from inspection data, while the bottom row (d-f) illustrates the posterior distributions of PGA for three sites S1, S2 and S3. Figure from [Bodenmann et al.](https://doi.org/10.31224/2205)" %}
 
 **Pollino**
 
-{% include figure image_path="/assets/images/research/Pollino_ShakeMapFrag.png" alt="pollino_frag" caption="The three case-studies used to test the proposed framework. The star and the triangles indicate the earthquake epicenter and the seismic network stations, respectively. Figure from [Bodenmann et al.](https://doi.org/10.31224/2205)" %}
+
+{% include figure image_path="/assets/images/research/Pollino_ShakeMapFrag.png" alt="pollino_frag" caption="For increasing amounts of inspection data the top row shows the posterior predictive median PGA, while the bottom row shows the initial and updated vulnerability functions for one building type. Figure from [Bodenmann et al.](https://doi.org/10.31224/2205)" %}
 
 **Comparison to random forest and linear regression**
 
