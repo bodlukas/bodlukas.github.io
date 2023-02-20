@@ -100,7 +100,7 @@ sampled_logIM = shakemap.sample_logIM(sites, nsamples = 2)
 ```
 Such samples (as shown in the figure below) are a starting point for many regional damage, loss and recovery studies. Note that the building sites are distributed over a very small area (...x... km), and that four seismic network stations are located within or close to this area. Despite these facts, the two samples are quiet different at many sites throughout the area. This is further examined below.
 
-{% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="sim_hatay" caption="Two spatially correlated samples of Sa(1s) at 2000 building sites in the city of Antakya conditional on recordings from seismic network stations (triangles)." %}
+{% include figure image_path="/assets/images/research/ShakemapSim_fig3b.png" alt="sim_hatay" caption="Two spatially correlated samples of Sa(1s) at 2000 building sites in the city of Antakya conditional on recordings from seismic network stations (triangles)." %}
 
 For the same 2000 building sites, we will now statistically estimate the probability distribution of the proportion of building sites where Sa(1s) exceeded a certain threshold. 
 
