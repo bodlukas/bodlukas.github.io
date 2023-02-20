@@ -28,8 +28,8 @@ feature_row1:
     btn_size: "btn--small"
   - image_path: /assets/images/research/ShakemapSim_mini.png
     alt: "shakemapsim"
-    title: "ShakemapSim: Modelling conditional ground-motion amplitudes"
-    excerpt: "Simulate spatially correlated ground-motions conditional on seismic network recordings"
+    title: "ShakemapSim: Modelling conditional ground-motion intensity measures"
+    excerpt: "Software release to facilitate post-earthquake loss assessment and model refinements"
     url: "/research/shakemapsim/"
     btn_label: "Learn more"
     btn_class: "btn--primary"
