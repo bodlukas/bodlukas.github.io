@@ -18,20 +18,20 @@ feature_row1:
     btn_label: "Learn more"
     btn_class: "btn--primary"
     btn_size: "btn--small"
-  - image_path: /assets/images/research/comingsoon.png
-    alt: "inventory data"
-    title: "Composition of an urban building inventory data set"
-    excerpt: "Use existing GIS data to compose a building inventory for risk assessment"
-    url: "/research/inventory/"
-    btn_label: "coming soon"
-    btn_class: "btn--primary"
-    btn_size: "btn--small"
   - image_path: /assets/images/research/ShakemapSim_mini.png
     alt: "shakemapsim"
     title: "ShakemapSim: Modelling conditional ground-motion intensity measures"
     excerpt: "Software release to facilitate post-earthquake loss assessment and model refinements"
     url: "/research/shakemapsim/"
     btn_label: "Learn more"
+    btn_class: "btn--primary"
+    btn_size: "btn--small"
+  - image_path: /assets/images/research/comingsoon.png
+    alt: "inventory data"
+    title: "Composition of an urban building inventory data set"
+    excerpt: "Use existing GIS data to compose a building inventory for risk assessment"
+    url: "/research/inventory/"
+    btn_label: "coming soon"
     btn_class: "btn--primary"
     btn_size: "btn--small"
     
