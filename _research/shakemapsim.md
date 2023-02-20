@@ -94,7 +94,11 @@ sampled_logIM = shakemap.sample_logIM(sites, nsamples = 2)
 
 For regional damage, loss and recovery studies, it is of interest to statistically estimate the number of building sites where the IM of interest exceeded a given threshold.
 
-For the same 2000 building sites, we will now compute the probability distribution of the proportion of sites where the IM of interest exceeded a certain threshold. First, we sample a large number (10000 in this example) of ground-motion fields (like those in the figure above). Then, for each sample, we count the number of sites where the IM of interest threshold was exceeded and divide by the total number of sites to get the proportion of sites. In this example, the IM of interest is SA(1.0) (as defined above) and its threshold is set to 0.75g (see below).
+For the same 2000 building sites, we will now compute the probability distribution of the proportion of sites where the IM of interest exceeded a certain threshold. 
+
+First, we sample a large number (10000 in this example) of ground-motion fields (like those in the figure above). Then, for each sample, we count the number of sites where the IM of interest threshold was exceeded and divide by the total number of sites to get the proportion of sites. 
+
+In this example, the IM of interest is SA(1.0) (as defined above) and its threshold is set to 0.75g.
 
 ... 
 
