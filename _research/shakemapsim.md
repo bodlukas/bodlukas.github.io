@@ -29,7 +29,7 @@ Within days after the event, people posted on social media that at some seismic 
 
 There are at least two reasons why I think the above conclusions are premature and do not serve as an adequate explanation: 
 - First, modern building codes (such as the one in Turkey) embrace the philopophy of ductile design. Thus, the collapse of a code-compliant building is very unlikely even if the design spectra was exceeded. 
-- Second, the recorded ground-motion spectrum is only represenatative of a building located directly above the seismic network station. The ground-shaking experienced by other buildings is still highly uncertain, even if the buildings are located close to a seismic network station. This was already pointed out by Peter Stafford in the aftermath of the 2011 Christchurch (New Zealand) earthquake[^Stafford2012].
+- Second, the recorded ground-motion spectrum is only represenatative of a building located directly above the seismic network station. The ground-shaking experienced by other buildings is still highly uncertain, even if the buildings are located close to a seismic network station. This was also pointed out by Peter Stafford after the 2011 Christchurch (New Zealand) earthquake[^Stafford2012].
 
 The ShakemapSim tool adresses the second aspect mentioned above: It allows users to compute the probability distribution of ground-motion IMs at specified building locations by taking into account recorded IM values at seismic network stations. 
 
@@ -103,4 +103,4 @@ For the same 2000 building sites, we will now compute the probability distributi
 **Citation** <br /> Bodenmann, L., and Stojadinović, B. (2023): ShakemapSim: Simulate spatially correlated ground-motion intensity measures conditional on recordings (v1.1). <br /> <a class="btn btn--primary" href="https://doi.org/10.5281/zenodo.7646888"> <i class="fa fa-file-link fa-lg"></i> doi: 10.5281/zenodo.7646888 </a> <a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--info}
 
-**References**
+{% include references.md %}
