@@ -92,5 +92,13 @@ sampled_logIM = shakemap.sample_logIM(sites, nsamples = 2)
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="sim_hatay" caption="Two spatially correlated samples of Sa(1s) at 2000 building sites in the city of Antakya conditional on recordings from seismic network stations (triangles)." %}
 
+For regional damage, loss and recovery studies, it is of interest to statistically estimate the number of building sites where the IM of interest exceeded a given threshold.
+
+For the same 2000 building sites, we will now compute the probability distribution of the proportion of sites where the IM of interest exceeded a certain threshold. First, we sample a large number (10000 in this example) of ground-motion fields (like those in the figure above). Then, for each sample, we count the number of sites where the IM of interest threshold was exceeded and divide by the total number of sites to get the proportion of sites. In this example, the IM of interest is SA(1.0) (as defined above) and its threshold is set to 0.75g (see below).
+
+... 
+
+> **_Note:_** Note that these findings are for the selected region, for the IM SA(1s), an IM threshold of 0.75g, as well as for one specific ground-motion model and one specific spatial correlation model. Feel free to re-run the code (in the repository) using the different implemented models (or implement your own models), and vary the region, IM and IM threshold values. 
+
 **Citation** <br /> Bodenmann, L., and Stojadinović, B. (2023): ShakemapSim: Simulate spatially correlated ground-motion intensity measures conditional on recordings (v1.1). <br /> <a class="btn btn--primary" href="https://doi.org/10.5281/zenodo.7646888"> <i class="fa fa-file-link fa-lg"></i> doi: 10.5281/zenodo.7646888 </a> <a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--info}
