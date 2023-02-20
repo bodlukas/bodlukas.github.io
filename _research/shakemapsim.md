@@ -79,9 +79,11 @@ mu, var = shakemap.predict_logIM(sites)
 ```
 The following maps show the parameters of the predicted lognormal distribution (left: median, right: standard deviation) at a longitude/latitude grid in the Turkish region of Hatay. 
 
-{% include figure image_path="/assets/images/research/ShakemapSim_fig2.png" alt="map_hatay" caption="Maps of median predicted Sa(1s) values (left) and corresponding logarithmic standard deviation (right) conditional on seismic network recordings. Triangles indicate seismic network stations." %}
+{% include figure image_path="/assets/images/research/ShakemapSim_fig2a.png" alt="map_hatay" caption="Maps of median predicted Sa(1s) values (left) and corresponding logarithmic standard deviation (right) conditional on seismic network recordings. Triangles indicate seismic network stations. The region indicated with the shaded square in the right panel will be the focus in the next section. The two sites indicated in the right panel are plotted in the figure below." %}
 
 For two sites, we plot the corresponding marginal logarithmic pdf. 
+
+{% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="map_hatay" caption="Maps of median predicted Sa(1s) values (left) and corresponding logarithmic standard deviation (right) conditional on seismic network recordings. Triangles indicate seismic network stations." %}
 
 ### Spatially correlated samples of ground-motion IMs
 
@@ -100,7 +102,7 @@ First, we sample a large number (10000 in this example) of ground-motion fields 
 
 In this example, the IM of interest is SA(1.0) (as defined above) and its threshold is set to 0.75g.
 
-... 
+{% include figure image_path="/assets/images/research/ShakemapSim_fig4.png" alt="sim_hatay" caption="Two spatially correlated samples of Sa(1s) at 2000 building sites in the city of Antakya conditional on recordings from seismic network stations (triangles)." %}
 
 > **_Note:_** These findings are for the selected region, for the IM SA(1s), an IM threshold of 0.75g, as well as for one specific ground-motion model and one specific spatial correlation model. Feel free to re-run the [code](https://github.com/bodlukas/ground-motion-simulation-shakemap) using the different implemented models (or implement your own models), and vary the region, IM and IM threshold values. 
 
