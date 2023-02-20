@@ -83,8 +83,9 @@ The following maps show the parameters of the predicted lognormal distribution (
 
 For two sites, we plot the corresponding marginal logarithmic pdf. 
 
-| Distances to three closest stations in km | | | |
-|  ---:        |    ---:   |    ---:   |    ---:   |
+**Distances to three closest stations in km**
+
+|  :---        |    ---:   |    ---:   |    ---:   |
 | Site 1 | 7.7 | 10.1 | 10.3 |
 | Site 2 | 0.8 | 1.1 | 1.8 |
 
