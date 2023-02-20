@@ -11,15 +11,21 @@ toc_icon: "bars"
 toc_sticky: true 
 ---
 
-|------|
-|<a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> code</a>|
+|------||------|
+|<a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> code</a>|<a class="btn btn--primary" href="https://doi.org/10.5281/zenodo.7646888"> <i class="fa fa-file-link fa-lg"></i> doi: 10.5281/zenodo.7646888 </a>|
 
 **ShakemapSim** is a tool generate spatially correlated fields of ground-motion intensity measures (IMs) conditional on available recordings from a seismic network. This enables regional post-earthquake loss assessments and is particularly useful for validation and development of models for damage, loss and recovery predictions using data gathered after an event. The tool comes with rich documentation, is easily customizable and can be run on hosted Jupyter notebook services (i.e., Google Colab). 
 
+We illustrate the tool using the [2023 M7.8 earthquake](https://earthquake.usgs.gov/earthquakes/eventpage/us6000jllz/executive) at the border of Turkey and Syria. Rupture information and station data (including recorded IMs) are imported from the [USGS ShakeMap system](https://earthquake.usgs.gov/data/shakemap/) and ShakemapSim uses the [OpenQuake engine](https://github.com/gem/oq-engine#openquake-engine) for geo-computations and implementations of ground-motion models. 
+
+I developed the tool as part of my PhD in the research group of [Prof. Bozidar Stojadinovic](https://stojadinovic.ibk.ethz.ch/) at the Department of Civil, Environmental and Geomatic Engineering at ETH Zürich. 
+
+## Motivation
+After such tragic events, many people raise questions whether buildings were designed according to code or not. As pointed out by Peter Stafford... in this nice article. 
 
 
-The tool uses the [openquake engine](https://github.com/gem/oq-engine#openquake-engine) for geo-computations and implementations of ground-motion models. In the provided example we import rupture information and station data (including recorded IMs) from the [USGS shakemap system](https://earthquake.usgs.gov/data/shakemap/). 
 
+## Example
 
 **Quick start** Open the notebook [ShakemapSim_Example.ipynb](ShakemapSim_Example.ipynb) on a hosted Jupyter notebook service (e.g., Google Colab). It does not require any local python setup and you can immediately start to customize the models and perform the computations yourself. It explains how to: 
 1. import earthquake rupture information and recorded ground-motion IMs,
@@ -27,20 +33,17 @@ The tool uses the [openquake engine](https://github.com/gem/oq-engine#openquake-
 3. specify sites at which we would like to predict ground-motion IMs,
 4. use **ShakemapSim** to predict and sample ground-motion IMs. 
 
-
-The tool was developed by the research group of [Prof. Bozidar Stojadinovic](https://stojadinovic.ibk.ethz.ch/) at the Department of Civil, Environmental and Geomatic Engineering at ETH Zürich. 
-
-## Overview: Earthquake rupture and seismic network stations
+### Overview: Earthquake rupture and seismic network stations
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig1.png" alt="fault_turkeysyria" caption="Overview of the considered rupture (solid line), the hypocenter (star) and the seismic network stations (triangles) with recorded values for Sa(1s). All retrieved from the USGS ShakeMap for the 2023 M7.8 Central Turkey event (version 12). The region indicated with the shaded square will be the focus in the next section." %}
 
-## Maps of conditional ground-motion IM parameters
+### Maps of conditional ground-motion IM parameters
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig2.png" alt="map_hatay" caption="Maps of median predicted Sa(1s) values (left) and corresponding logarithmic standard deviation (right) conditional on seismic network recordings. Triangles indicate seismic network stations." %}
 
-## Spatially correlated simulations of ground-motion IMs
+### Spatially correlated simulations of ground-motion IMs
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="sim_hatay" caption="Two spatially correlated samples of Sa(1s) at 2000 building sites in the city of Antakya conditional on recordings from seismic network stations (triangles)." %}
 
-**Citation** <br /> Bodenmann, L., and Stojadinović, B. (2023): ShakemapSim: Simulate spatially correlated ground-motion intensity measures conditional on recordings (v1.1). <br /> <a class="btn btn--primary" href="https://doi.org/10.5281/zenodo.7646888"> <i class="fa fa-file-pdf fa-lg"></i> Zenodo </a> <a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
+**Citation** <br /> Bodenmann, L., and Stojadinović, B. (2023): ShakemapSim: Simulate spatially correlated ground-motion intensity measures conditional on recordings (v1.1). <br /> <a class="btn btn--primary" href="https://doi.org/10.5281/zenodo.7646888"> <i class="fa fa-file-link fa-lg"></i> doi: 10.5281/zenodo.7646888 </a> <a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-simulation-shakemap"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--info}
