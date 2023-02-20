@@ -81,13 +81,14 @@ The following maps show the parameters of the predicted lognormal distribution (
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig2a.png" alt="map_hatay" caption="Maps of median predicted Sa(1s) values (left) and corresponding logarithmic standard deviation (right) conditional on seismic network recordings. Triangles indicate seismic network stations. The region indicated with the shaded square in the right panel will be the focus in the next section. The two sites indicated in the right panel are plotted in the figure below." %}
 
-For two sites, we plot the corresponding marginal logarithmic pdf. 
+To examine the remaining uncertainties that are involved in IMs at sites that are close to seismic network stations we focus on the two sites indicated in the right panel of the above figure. The table below indicates the distances in km from each site to the three closest network stations. 
 
-**Distances to three closest stations in km**
-
+| | | | |
 |  :---        |    ---:   |    ---:   |    ---:   |
 | Site 1 | 7.7 | 10.1 | 10.3 |
 | Site 2 | 0.8 | 1.1 | 1.8 |
+
+The figure below plots the conditional marginal probability density functions obtained from ShakemapSim at the two sites. It highlights the substantial remaining uncertainty event at site 2 located very close to three network stations.
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="pdf_hatay" caption="Probability density function of Sa(1s) at two sites conditional on seismic network recordings." %}
 
@@ -97,6 +98,7 @@ Next we generate two spatially correlated samples of IMs conditional on recorded
 ```python
 sampled_logIM = shakemap.sample_logIM(sites, nsamples = 2)
 ```
+The two samples are shown in the below figure. Note that the building sites are distributed over a very small area (...x... km), and that four seismic network stations are located within or close to this area. Despite these facts, the two samples are quiet different at many sites throughout the area. This is further examined below.
 
 {% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="sim_hatay" caption="Two spatially correlated samples of Sa(1s) at 2000 building sites in the city of Antakya conditional on recordings from seismic network stations (triangles)." %}
 
