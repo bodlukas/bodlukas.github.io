@@ -18,10 +18,13 @@ toc_sticky: true
 
 We illustrate the tool using the [2023 M7.8 earthquake](https://earthquake.usgs.gov/earthquakes/eventpage/us6000jllz/executive) at the border of Turkey and Syria. Rupture information and station data (including recorded IMs) are imported from the [USGS ShakeMap system](https://earthquake.usgs.gov/data/shakemap/) and ShakemapSim uses the [OpenQuake engine](https://github.com/gem/oq-engine#openquake-engine) for geo-computations and implementations of ground-motion models. 
 
-I developed the tool as part of my PhD in the research group of [Prof. Bozidar Stojadinovic](https://stojadinovic.ibk.ethz.ch/) at the Department of Civil, Environmental and Geomatic Engineering at ETH Zürich. 
+I developed the tool as part of my PhD in the research group of [Professor Stojadinovic](https://stojadinovic.ibk.ethz.ch/) at ETH Zürich. 
 
 ## Motivation
-After such tragic events, many people raise questions whether buildings were designed according to code or not. As pointed out by Peter Stafford... in this nice article. 
+In February 2023, a strong M7.8 earthquake occurred at the border of Turkey and Syria resulting in the collapse of thousands of buildings with (too) many people that suffered from tragic losses. In the aftermath of such devastating events, people raise questions whether buildings were adequately designed and, even more, whether building code prescriptions for new constructions are sufficient. One can see many people posing pictures 
+
+
+After such tragic events, many people raise questions whether building code precriptions buildings were designed according to code or not. As pointed out by Peter Stafford... in this nice article. 
 
 
 
