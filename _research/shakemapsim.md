@@ -83,11 +83,12 @@ The following maps show the parameters of the predicted lognormal distribution (
 
 For two sites, we plot the corresponding marginal logarithmic pdf. 
 
+| Distances to three closest stations in km | | | |
 | :---        |    ---:   |    ---:   |    ---:   |
-|Distances to three closest stations for site 1|7.7km|10.1km|10.3km|
-|Distances to three closest stations for site 2|0.8km|1.1km|1.8km|
+| Site 1 | 7.7km | 10.1km | 10.3km |
+| Site 2 | 0.8km | 1.1km | 1.8km |
 
-{% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="map_hatay" caption="Maps of median predicted Sa(1s) values (left) and corresponding logarithmic standard deviation (right) conditional on seismic network recordings. Triangles indicate seismic network stations." %}
+{% include figure image_path="/assets/images/research/ShakemapSim_fig3.png" alt="pdf_hatay" caption="Probability density function of Sa(1s) at two sites conditional on seismic network recordings." %}
 
 ### Spatially correlated samples of ground-motion IMs
 
@@ -106,7 +107,7 @@ First, we sample a large number (10000 in this example) of ground-motion fields 
 
 In this example, the IM of interest is SA(1.0) (as defined above) and its threshold is set to 0.75g.
 
-{% include figure image_path="/assets/images/research/ShakemapSim_fig4.png" alt="sim_hatay" caption="Two spatially correlated samples of Sa(1s) at 2000 building sites in the city of Antakya conditional on recordings from seismic network stations (triangles)." %}
+{% include figure image_path="/assets/images/research/ShakemapSim_fig4.png" alt="hist_hatay" caption="For the 2000 building sites from above: Histogram of the proportion of sites where Sa(1s) exceeded a threshold of 0.75g. The histogram was obtained from 10000 simulated ground-motion fields." %}
 
 > **_Note:_** These findings are for the selected region, for the IM SA(1s), an IM threshold of 0.75g, as well as for one specific ground-motion model and one specific spatial correlation model. Feel free to re-run the [code](https://github.com/bodlukas/ground-motion-simulation-shakemap) using the different implemented models (or implement your own models), and vary the region, IM and IM threshold values. 
 
