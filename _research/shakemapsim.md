@@ -39,6 +39,8 @@ Conducting, validating and developing regional post-earthquake loss assessments 
 
 The following example illustrates the capabilities of ShakemapSim in producing maps of conditional ground-motion IM parameters and generating correlated samples at specified building sites. 
 
+> **_Note:_** All presented results where obtained using USGS ShakeMap data for this specific [event](https://earthquake.usgs.gov/earthquakes/eventpage/us6000jllz/shakemap/metadata) (version 12). 
+
 The code snippet below shows how to specify and assemble the different model components. 
 
 ```python
