@@ -21,7 +21,7 @@ The role of risk measures in relating earthquake risk at building and portfolio 
 
 **Published**
 
-Dynamic post-earthquake updating of regional damage estimates using Gaussian processes. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em> Reliability Engineering & System Safety</em> 2023 <br /> <a class="btn btn--primary" href="https://doi.org/10.1016/j.ress.2023.109201"> <i class="fa fa-file-pdf fa-lg"></i> OpenAccess </a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
+Dynamic post-earthquake updating of regional damage estimates using Gaussian processes. <br /> Bodenmann, L., Reuland, Y., and Stojadinović, B. <br /> <em> Reliability Engineering & System Safety</em> 2023 <br /> <a class="btn btn--primary" href="https://doi.org/10.1016/j.ress.2023.109201"> <i class="fa fa-file-pdf fa-lg"></i> View at publisher (open access) </a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--warning}
 
 The role of risk measures in making seismic upgrading decisions. <br /> Bodenmann, L., Galanis, P., Broccardo, M., and Stojadinović, B. <br /> <em>Earthquake Spectra</em> 2020 <br /> <a class="btn btn--primary" href="https://doi.org/10.1177/8755293020919423"> <i class="fa fa-link"></i> View at publisher</a> <a class="btn btn--primary" href="https://www.research-collection.ethz.ch/handle/20.500.11850/453596"> <i class="fa fa-file-pdf fa-lg"></i> Accepted version</a>
