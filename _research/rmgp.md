@@ -15,7 +15,7 @@ The widespread earthquake damage to the built environment induces severe short- 
 
 In this work, we suggest to encode domain knowledge in ordinal Gaussian process regression to update parts of the regional earthquake risk model using early damage reports from building inspection. The updated model is then used to issue post-earthquake loss estimates with increasing accuracy and precision. 
 
-**More information** <br /> Bodenmann L., Reuland Y. and Stojadinović B. (2022): Dynamic post-earthquake updating of regional damage estimates using Gaussian processes; Submitted to Reliability Engineering & System Safety. <br /> <a class="btn btn--primary" href="https://doi.org/10.1016/j.ress.2023.109201"> <i class="fa fa-file-pdf fa-lg"></i> View at publisher </a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
+**More information** <br /> Bodenmann L., Reuland Y. and Stojadinović B. (2022): Dynamic post-earthquake updating of regional damage estimates using Gaussian processes; Reliability Engineering & System Safety. <br /> <a class="btn btn--primary" href="https://doi.org/10.1016/j.ress.2023.109201"> <i class="fa fa-file-pdf fa-lg"></i> View at publisher </a> <a class="btn btn--primary" href="https://github.com/bodlukas/earthquake-rmgp"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
 {: .notice--info}
 
 ## Regional earthquake risk model
