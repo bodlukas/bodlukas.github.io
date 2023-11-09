@@ -12,6 +12,11 @@ excerpt: "Research papers published in peer-reviewed journals and conference pro
 
 ## Journal Publications
 
+**In review**
+
+Accounting for ground motion uncertainty in empirical seismic fragility modeling. <br /> Bodenmann, L., Baker J. W., and Stojadinović, B. <br /> <em>Engineering Archive [preprint] </em> 2023 <br /> <a class="btn btn--primary" href="https://doi.org/10.31224/3336"> <i class="fa fa-file-pdf fa-lg"></i> preprint </a> <a class="btn btn--primary" href="https://github.com/bodlukas/BayesFrag"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
+{: .notice--warning}
+
 **Published**
 
 Accounting for path and site effects in spatial ground-motion correlation models using Bayesian inference. <br /> Bodenmann, L., Baker J. W., and Stojadinović, B. <br /> <em>Natural Hazards and Earth System Sciences </em> 2023 <br /> <a class="btn btn--primary" href="https://doi.org/10.5194/nhess-23-2387-2023"> <i class="fa fa-file-pdf fa-lg"></i> View at publisher (open access) </a> <a class="btn btn--primary" href="https://github.com/bodlukas/ground-motion-correlation-bayes"> <i class="fa fa-code" aria-hidden="true"></i> code</a>
