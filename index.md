@@ -8,10 +8,14 @@ permalink: /
 **Welcome**
 
 ![](/assets/images/li_1_web.jpg){: .align-left width="200"}
+I am interested in the use of **probabilistic modelling** and **data analytics** to advance risk assessement capabilities for spatially distributed **infrastructure** exposed to **natural hazards**. A topic which I researched during my doctoral studies at [ETH Zurich](https://www.ethz.ch/) and [Stanford University](https://www.stanford.edu/) and which I know work on at [climada technologies](https://www.climada.tech/), an ETH spin-off and a provider of climate risk analytics. 
+
+<!--  
+I am passionate about **probabilistic modelling** and **data analytics** to advance risk assessement capabilities for spatially distributed **infrastructure** exposed to **natural hazards**. 
 I am a doctoral student at [ETH Zurich](https://www.ethz.ch/) and was a visiting researcher at [Stanford University](https://www.stanford.edu/). In my research, I use **probabilistic modelling** and **data analytics** to advance risk assessment for spatially distributed **infrastructure** exposed to **natural hazards**.
 
 Before that, I worked as an infrastructure asset manager for the Swiss Federal Railway ([SBB](https://company.sbb.ch/en/home.html)).
-
+-->
 This website contains summaries of some selected [research projects](https://bodlukas.github.io/projects/), my [CV](/assets/CV_LB.pdf) and [publication list](https://bodlukas.github.io/publications/).
 
 <a class="btn btn--primary" href="https://www.linkedin.com/in/lukas-bodenmann/"> <i class="fab fa-fw fa-linkedin"></i> LinkedIn</a>  <a class="btn btn--primary" href="https://github.com/bodlukas"> <i class="fab fa-fw fa-github"></i> GitHub</a>   <a class="btn btn--primary" href="https://orcid.org/0000-0002-7742-3306"> <i class="fab fa-fw fa-orcid"></i> ORCid</a>
