@@ -8,7 +8,7 @@ permalink: /
 **Welcome**
 
 ![](/assets/images/LB_clim_lowres.jpeg){: .align-left width="200"}
-I am interested in the use of **probabilistic modelling** and **data analytics** to advance risk assessement capabilities for spatially distributed **infrastructure** exposed to **natural hazards**. A topic which I researched during my doctoral studies at [ETH Zurich](https://www.ethz.ch/) and [Stanford University](https://www.stanford.edu/) and which I know work on at [climada technologies](https://www.climada.tech/), an ETH spin-off and a provider of climate risk analytics. 
+I am interested in the use of **probabilistic modelling** and **data analytics** to advance risk assessement capabilities for spatially distributed **infrastructure** exposed to **natural hazards**. A topic which I researched during my doctoral studies at [ETH Zurich](https://www.ethz.ch/) and [Stanford University](https://www.stanford.edu/) and which I now work on at [climada technologies](https://www.climada.tech/), an ETH spin-off and a provider of climate risk analytics. 
 
 <!--  
 I am passionate about **probabilistic modelling** and **data analytics** to advance risk assessement capabilities for spatially distributed **infrastructure** exposed to **natural hazards**. 
